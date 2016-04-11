@@ -1,0 +1,7 @@
+C:\Users\User\Desktop\Private Server\MySql.Data\bin\Release\MySql.Data.dll
+C:\Users\User\Desktop\Private Server\MySql.Data\bin\Release\MySql.Data.pdb
+C:\Users\User\Desktop\Private Server\MySql.Data\bin\Release\GeoAPI.dll
+C:\Users\User\Desktop\Private Server\MySql.Data\obj\Debug\MySql.Data.MySqlClient.Properties.Resources.resources
+C:\Users\User\Desktop\Private Server\MySql.Data\obj\Debug\MySql.Data.csproj.GenerateResource.Cache
+C:\Users\User\Desktop\Private Server\MySql.Data\obj\Debug\MySql.Data.dll
+C:\Users\User\Desktop\Private Server\MySql.Data\obj\Debug\MySql.Data.pdb

@@ -1,0 +1,48 @@
+C:\Users\User\Desktop\Private Server\bin\Debug\ConServer\texture\_dark_fire.png
+C:\Users\User\Desktop\Private Server\bin\Debug\ConServer\ConServer.exe.config
+C:\Users\User\Desktop\Private Server\bin\Debug\ConServer\ConServer.exe.manifest
+C:\Users\User\Desktop\Private Server\bin\Debug\ConServer\ConServer.application
+C:\Users\User\Desktop\Private Server\bin\Debug\ConServer\ConServer.exe
+C:\Users\User\Desktop\Private Server\bin\Debug\ConServer\ConServer.pdb
+C:\Users\User\Desktop\Private Server\ConServer\obj\Debug\ConServer.csprojResolveAssemblyReference.cache
+C:\Users\User\Desktop\Private Server\ConServer\obj\Debug\ConServer.TrustInfo.xml
+C:\Users\User\Desktop\Private Server\ConServer\obj\Debug\ConServer.exe.manifest
+C:\Users\User\Desktop\Private Server\ConServer\obj\Debug\ConServer.application
+C:\Users\User\Desktop\Private Server\ConServer\obj\Debug\ConServer.exe
+C:\Users\User\Desktop\Private Server\ConServer\obj\Debug\ConServer.pdb
+C:\Users\User\Desktop\Private Server\Private-Server-\bin\Debug\ConServer\texture\_dark_fire.png
+C:\Users\User\Desktop\Private Server\Private-Server-\bin\Debug\ConServer\ConServer.exe.config
+C:\Users\User\Desktop\Private Server\Private-Server-\bin\Debug\ConServer\ConServer.exe.manifest
+C:\Users\User\Desktop\Private Server\Private-Server-\bin\Debug\ConServer\ConServer.application
+C:\Users\User\Desktop\Private Server\Private-Server-\bin\Debug\ConServer\ConServer.exe
+C:\Users\User\Desktop\Private Server\Private-Server-\bin\Debug\ConServer\ConServer.pdb
+C:\Users\User\Desktop\Private Server\Private-Server-\ConServer\obj\Debug\ConServer.csprojResolveAssemblyReference.cache
+C:\Users\User\Desktop\Private Server\Private-Server-\ConServer\obj\Debug\ConServer.TrustInfo.xml
+C:\Users\User\Desktop\Private Server\Private-Server-\ConServer\obj\Debug\ConServer.exe.manifest
+C:\Users\User\Desktop\Private Server\Private-Server-\ConServer\obj\Debug\ConServer.application
+C:\Users\User\Desktop\Private Server\Private-Server-\ConServer\obj\Debug\ConServer.exe
+C:\Users\User\Desktop\Private Server\Private-Server-\ConServer\obj\Debug\ConServer.pdb
+C:\Users\User\Desktop\PrivateServer\bin\Debug\ConServer\texture\_dark_fire.png
+C:\Users\User\Desktop\PrivateServer\bin\Debug\ConServer\ConServer.exe.config
+C:\Users\User\Desktop\PrivateServer\bin\Debug\ConServer\ConServer.exe.manifest
+C:\Users\User\Desktop\PrivateServer\bin\Debug\ConServer\ConServer.application
+C:\Users\User\Desktop\PrivateServer\bin\Debug\ConServer\ConServer.exe
+C:\Users\User\Desktop\PrivateServer\bin\Debug\ConServer\ConServer.pdb
+C:\Users\User\Desktop\PrivateServer\ConServer\obj\Debug\ConServer.csprojResolveAssemblyReference.cache
+C:\Users\User\Desktop\PrivateServer\ConServer\obj\Debug\ConServer.TrustInfo.xml
+C:\Users\User\Desktop\PrivateServer\ConServer\obj\Debug\ConServer.exe.manifest
+C:\Users\User\Desktop\PrivateServer\ConServer\obj\Debug\ConServer.application
+C:\Users\User\Desktop\PrivateServer\ConServer\obj\Debug\ConServer.exe
+C:\Users\User\Desktop\PrivateServer\ConServer\obj\Debug\ConServer.pdb
+C:\Users\Sam\Desktop\PrivateServer\bin\Debug\ConServer\texture\_dark_fire.png
+C:\Users\Sam\Desktop\PrivateServer\bin\Debug\ConServer\ConServer.exe.config
+C:\Users\Sam\Desktop\PrivateServer\bin\Debug\ConServer\ConServer.exe.manifest
+C:\Users\Sam\Desktop\PrivateServer\bin\Debug\ConServer\ConServer.application
+C:\Users\Sam\Desktop\PrivateServer\bin\Debug\ConServer\ConServer.exe
+C:\Users\Sam\Desktop\PrivateServer\bin\Debug\ConServer\ConServer.pdb
+C:\Users\Sam\Desktop\PrivateServer\ConServer\obj\Debug\ConServer.csprojResolveAssemblyReference.cache
+C:\Users\Sam\Desktop\PrivateServer\ConServer\obj\Debug\ConServer.TrustInfo.xml
+C:\Users\Sam\Desktop\PrivateServer\ConServer\obj\Debug\ConServer.exe.manifest
+C:\Users\Sam\Desktop\PrivateServer\ConServer\obj\Debug\ConServer.application
+C:\Users\Sam\Desktop\PrivateServer\ConServer\obj\Debug\ConServer.exe
+C:\Users\Sam\Desktop\PrivateServer\ConServer\obj\Debug\ConServer.pdb

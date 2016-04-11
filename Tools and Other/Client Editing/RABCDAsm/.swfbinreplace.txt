@@ -1,0 +1,3 @@
+swfbinexport client.swf
+
+swfbinreplace client.swf 108 client-108.bin

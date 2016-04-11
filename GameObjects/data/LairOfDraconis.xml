@@ -1,0 +1,561 @@
+<Objects>
+  <Object type="0x7499" id="Nikao the Defiler">
+    <Group>Dragon Gods</Group>
+    <Enemy/>
+    <Quest/>
+    <Hero/>
+    <Encounter/>
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>chars16x16dEncounters2</File>
+      <Index>45</Index>
+    </AnimatedTexture>
+    <AltTexture id="1">
+      <AnimatedTexture>
+        <File>chars16x16dEncounters2</File>
+        <Index>46</Index>
+      </AnimatedTexture>
+    </AltTexture>
+    <AltTexture id="3">
+      <AnimatedTexture>
+        <File>chars16x16dEncounters2</File>
+        <Index>45</Index>
+      </AnimatedTexture>
+    </AltTexture>
+    <HitSound>monster/skeletons_hit</HitSound>
+    <DeathSound>monster/skeletons_death</DeathSound>
+    <Size>225</Size>
+    <MaxHitPoints>60000</MaxHitPoints>
+    <Defense>70</Defense>
+    <XpMult>5.0</XpMult>
+    <Level>20</Level>
+    <StasisImmune/>
+    <Projectile id="0">
+      <ObjectId>Dragon Attack Blue Bullet</ObjectId>
+      <Speed>55</Speed>
+      <Damage>125</Damage>
+      <Size>75</Size>
+      <LifetimeMS>2000</LifetimeMS>
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>Dragon Attack Blue Fireball</ObjectId>
+      <Speed>75</Speed>
+      <Damage>90</Damage>
+      <Size>140</Size>
+      <LifetimeMS>2000</LifetimeMS>
+      <ConditionEffect duration="1.5">Slowed</ConditionEffect>
+    </Projectile>
+    <Projectile id="2">
+      <ObjectId>Dragon Attack Blue Blast</ObjectId>
+      <Speed>55</Speed>
+      <Damage>125</Damage>
+      <Size>100</Size>
+      <LifetimeMS>1700</LifetimeMS>
+    </Projectile>
+    <Projectile id="3">
+      <ObjectId>Blue Missile</ObjectId>
+      <Speed>100</Speed>
+      <Damage>200</Damage>
+      <Size>140</Size>
+      <LifetimeMS>1200</LifetimeMS>
+    </Projectile>
+    <Projectile id="4">
+      <ObjectId>Green Missile</ObjectId>
+      <Speed>55</Speed>
+      <Damage>100</Damage>
+      <Size>100</Size>
+      <LifetimeMS>1200</LifetimeMS>
+      <ConditionEffect effect="15">Weak</ConditionEffect>
+    </Projectile>
+    <Projectile id="5">
+      <ObjectId>Dragon Attack Green Spin Ball</ObjectId>
+      <Damage>95</Damage>
+      <Speed>55</Speed>
+      <LifetimeMS>2500</LifetimeMS>
+      <ConditionEffect effect="12">Sick</ConditionEffect>
+    </Projectile>
+    <Projectile id="6">
+      <ObjectId>Dragon Attack Red Spinning Fireball</ObjectId>
+      <Speed>55</Speed>
+      <Damage>120</Damage>
+      <Size>75</Size>
+      <LifetimeMS>1700</LifetimeMS>
+      <ConditionEffect duration="10">Armor Broken</ConditionEffect>
+    </Projectile>
+    <Projectile id="7">
+      <ObjectId>Red Fire</ObjectId>
+      <Speed>100</Speed>
+      <Damage>50</Damage>
+      <Size>100</Size>
+      <LifetimeMS>1200</LifetimeMS>
+    </Projectile>
+    <Projectile id="8">
+      <ObjectId>Red Fire</ObjectId>
+      <Speed>55</Speed>
+      <Damage>80</Damage>
+      <Size>100</Size>
+      <LifetimeMS>1200</LifetimeMS>
+    </Projectile>
+    <Projectile id="9">
+      <ObjectId>Red Fire</ObjectId>
+      <Speed>55</Speed>
+      <Damage>50</Damage>
+      <Size>100</Size>
+      <LifetimeMS>1200</LifetimeMS>
+    </Projectile>
+    <Projectile id="10">
+      <ObjectId>Red Fire</ObjectId>
+      <Speed>25</Speed>
+      <Damage>350</Damage>
+      <Size>200</Size>
+      <LifetimeMS>1200</LifetimeMS>
+    </Projectile>
+  </Object>
+  <Object type="0x7543" id="Pyyr the Wicked">
+    <Group>Red Dragon God Group</Group>
+    <Enemy/>
+    <Quest/>
+    <Hero/>
+    <Encounter/>
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>chars16x16dEncounters2</File>
+      <Index>47</Index>
+    </AnimatedTexture>
+    <AltTexture id="1">
+      <AnimatedTexture>
+        <File>chars16x16dEncounters2</File>
+        <Index>48</Index>
+      </AnimatedTexture>
+    </AltTexture>
+    <AltTexture id="3">
+      <AnimatedTexture>
+        <File>chars16x16dEncounters2</File>
+        <Index>47</Index>
+      </AnimatedTexture>
+    </AltTexture>
+    <HitSound>monster/skeletons_hit</HitSound>
+    <DeathSound>monster/skeletons_death</DeathSound>
+    <Size>225</Size>
+    <MaxHitPoints>50000</MaxHitPoints>
+    <Defense>40</Defense>
+    <XpMult>5.0</XpMult>
+    <Level>20</Level>
+    <StasisImmune/>
+    <Projectile id="0">
+      <ObjectId>Dragon Attack Red Big Fireball</ObjectId>
+      <Speed>60</Speed>
+      <Damage>165</Damage>
+      <Size>400</Size>
+      <LifetimeMS>2500</LifetimeMS>
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>Dragon Attack Red Firewave</ObjectId>
+      <Speed>85</Speed>
+      <Damage>100</Damage>
+      <Size>140</Size>
+      <LifetimeMS>1200</LifetimeMS>
+    </Projectile>
+    <Projectile id="2">
+      <ObjectId>Dragon Attack Red Spinning Fireball</ObjectId>
+      <Speed>65</Speed>
+      <Damage>75</Damage>
+      <Size>150</Size>
+      <LifetimeMS>1200</LifetimeMS>
+      <ConditionEffect duration="15">Bleeding</ConditionEffect>
+    </Projectile>
+    <Projectile id="3">
+      <ObjectId>Dragon Attack Red Orb</ObjectId>
+      <Speed>60</Speed>
+      <Damage>75</Damage>
+      <Size>200</Size>
+      <LifetimeMS>1200</LifetimeMS>
+    </Projectile>
+    <Projectile id="4">
+      <ObjectId>Green Missile</ObjectId>
+      <Speed>55</Speed>
+      <Damage>100</Damage>
+      <Size>100</Size>
+      <LifetimeMS>1200</LifetimeMS>
+    </Projectile>
+    <Projectile id="5">
+      <ObjectId>Dragon Attack Blue Fireball</ObjectId>
+      <Speed>100</Speed>
+      <Damage>100</Damage>
+      <Size>140</Size>
+      <LifetimeMS>1200</LifetimeMS>
+      <ConditionEffect duration="2">Slowed</ConditionEffect>
+    </Projectile>
+    <Projectile id="6">
+      <ObjectId>Red Fire</ObjectId>
+      <Speed>140</Speed>
+      <Damage>50</Damage>
+      <Size>80</Size>
+      <LifetimeMS>1200</LifetimeMS>
+    </Projectile>
+    <Projectile id="7">
+      <ObjectId>Red Fire</ObjectId>
+      <Speed>100</Speed>
+      <Damage>50</Damage>
+      <Size>100</Size>
+      <LifetimeMS>1200</LifetimeMS>
+    </Projectile>
+    <Projectile id="8">
+      <ObjectId>Red Fire</ObjectId>
+      <Speed>55</Speed>
+      <Damage>50</Damage>
+      <Size>100</Size>
+      <LifetimeMS>1200</LifetimeMS>
+    </Projectile>
+    <Projectile id="9">
+      <ObjectId>Red Fire</ObjectId>
+      <Speed>55</Speed>
+      <Damage>50</Damage>
+      <Size>100</Size>
+      <LifetimeMS>1200</LifetimeMS>
+    </Projectile>
+    <Projectile id="10">
+      <ObjectId>Red Fire</ObjectId>
+      <Speed>25</Speed>
+      <Damage>350</Damage>
+      <Size>200</Size>
+      <LifetimeMS>1200</LifetimeMS>
+    </Projectile>
+  </Object>
+  <Object type="0x7541" id="Limoz the Plague Bearer">
+    <Group>Dragon Gods</Group>
+    <Enemy/>
+    <Quest/>
+    <Hero/>
+    <Encounter/>
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>chars16x16dEncounters2</File>
+      <Index>49</Index>
+    </AnimatedTexture>
+    <AltTexture id="1">
+      <AnimatedTexture>
+        <File>chars16x16dEncounters2</File>
+        <Index>50</Index>
+      </AnimatedTexture>
+    </AltTexture>
+    <AltTexture id="3">
+      <AnimatedTexture>
+        <File>chars16x16dEncounters2</File>
+        <Index>49</Index>
+      </AnimatedTexture>
+    </AltTexture>
+    <HitSound>monster/skeletons_hit</HitSound>
+    <DeathSound>monster/skeletons_death</DeathSound>
+    <Size>225</Size>
+    <MaxHitPoints>55000</MaxHitPoints>
+    <Defense>40</Defense>
+    <XpMult>5.0</XpMult>
+    <Level>20</Level>
+    <StasisImmune/>
+    <Projectile id="0">
+      <ObjectId>Dragon Attack Green Ball</ObjectId>
+      <Damage>135</Damage>
+      <Speed>70</Speed>
+      <LifetimeMS>1900</LifetimeMS>
+      <PassesCover/>
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>Dragon Attack Green Spin Ball</ObjectId>
+      <Damage>95</Damage>
+      <Speed>70</Speed>
+      <LifetimeMS>2000</LifetimeMS>
+      <ConditionEffect effect="15">Bleeding</ConditionEffect>
+    </Projectile>
+    <Projectile id="2">
+      <ObjectId>Dragon Attack Green Arrow</ObjectId>
+      <Speed>100</Speed>
+      <Damage>75</Damage>
+      <Size>100</Size>
+      <LifetimeMS>1200</LifetimeMS>
+    </Projectile>
+    <Projectile id="3">
+      <ObjectId>Dragon Attack Green Bullet</ObjectId>
+      <Damage>120</Damage>
+      <Speed>100</Speed>
+      <LifetimeMS>1000</LifetimeMS>
+    </Projectile>
+    <Projectile id="4">
+      <ObjectId>Dragon Attack Green Spine</ObjectId>
+      <Speed>55</Speed>
+      <Damage>100</Damage>
+      <Size>100</Size>
+      <LifetimeMS>2500</LifetimeMS>
+    </Projectile>
+    <Projectile id="5">
+      <ObjectId>Dragon Attack Blue Fireball</ObjectId>
+      <Speed>100</Speed>
+      <Damage>100</Damage>
+      <Size>140</Size>
+      <LifetimeMS>2000</LifetimeMS>
+      <ConditionEffect duration="2">Slowed</ConditionEffect>
+    </Projectile>
+    <Projectile id="6">
+      <ObjectId>Dragon Attack Red Orb</ObjectId>
+      <Speed>75</Speed>
+      <Damage>60</Damage>
+      <Size>100</Size>
+      <LifetimeMS>1200</LifetimeMS>
+      <ConditionEffect duration="2">Armor Broken</ConditionEffect>
+    </Projectile>
+    <Projectile id="7">
+      <ObjectId>Green Missile</ObjectId>
+      <Speed>100</Speed>
+      <Damage>50</Damage>
+      <Size>100</Size>
+      <LifetimeMS>1200</LifetimeMS>
+    </Projectile>
+    <Projectile id="8">
+      <ObjectId>Green Missile</ObjectId>
+      <Speed>55</Speed>
+      <Damage>50</Damage>
+      <Size>100</Size>
+      <LifetimeMS>1200</LifetimeMS>
+    </Projectile>
+    <Projectile id="9">
+      <ObjectId>Green Missile</ObjectId>
+      <Speed>55</Speed>
+      <Damage>50</Damage>
+      <Size>100</Size>
+      <LifetimeMS>1200</LifetimeMS>
+    </Projectile>
+    <Projectile id="10">
+      <ObjectId>Green Missile</ObjectId>
+      <Speed>25</Speed>
+      <Damage>350</Damage>
+      <Size>200</Size>
+      <LifetimeMS>1200</LifetimeMS>
+    </Projectile>
+  </Object>
+  <Object type="0x7504" id="Feargus the Demented">
+    <Enemy/>
+    <Quest/>
+    <Hero/>
+    <Encounter/>
+    <Level>20</Level>
+    <God/>
+    <PerRealmMax>1</PerRealmMax>
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>chars16x16dEncounters2</File>
+      <Index>51</Index>
+    </AnimatedTexture>
+    <AltTexture id="1">
+      <AnimatedTexture>
+        <File>chars16x16dEncounters2</File>
+        <Index>52</Index>
+      </AnimatedTexture>
+    </AltTexture>
+    <AltTexture id="2">
+      <Texture>
+        <File>invisible</File>
+        <Index>0</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="3">
+      <AnimatedTexture>
+        <File>chars16x16dEncounters2</File>
+        <Index>51</Index>
+      </AnimatedTexture>
+    </AltTexture>
+    <HitSound>monster/skeletons_hit</HitSound>
+    <DeathSound>monster/skeletons_death</DeathSound>
+    <Size>240</Size>
+    <MaxHitPoints>50000</MaxHitPoints>
+    <Defense>70</Defense>
+    <XpMult>7.5</XpMult>
+    <StasisImmune/>
+    <Projectile id="0">
+      <ObjectId>Dragon Attack Black Ray</ObjectId>
+      <Speed>55</Speed>
+      <Damage>200</Damage>
+      <Size>240</Size>
+      <LifetimeMS>1500</LifetimeMS>
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>Dragon Attack Black Spin</ObjectId>
+      <Speed>100</Speed>
+      <Damage>200</Damage>
+      <Size>140</Size>
+      <LifetimeMS>1200</LifetimeMS>
+      <ConditionEffect duration="2">Weak</ConditionEffect>
+    </Projectile>
+    <Projectile id="2">
+      <ObjectId>Dragon Attack Black Shot</ObjectId>
+      <Speed>55</Speed>
+      <Damage>100</Damage>
+      <Size>140</Size>
+      <LifetimeMS>1200</LifetimeMS>
+    </Projectile>
+    <Projectile id="3">
+      <ObjectId>Dragon Attack Black Bullet</ObjectId>
+      <Speed>100</Speed>
+      <Damage>200</Damage>
+      <Size>140</Size>
+      <LifetimeMS>1200</LifetimeMS>
+    </Projectile>
+    <Projectile id="4">
+      <ObjectId>Black Missile</ObjectId>
+      <Speed>55</Speed>
+      <Damage>100</Damage>
+      <Size>100</Size>
+      <LifetimeMS>1200</LifetimeMS>
+    </Projectile>
+    <Projectile id="5">
+      <ObjectId>Dragon Attack Blue Fireball</ObjectId>
+      <Speed>100</Speed>
+      <Damage>100</Damage>
+      <Size>140</Size>
+      <LifetimeMS>1700</LifetimeMS>
+      <ConditionEffect duration="2">Slowed</ConditionEffect>
+    </Projectile>
+    <Projectile id="6">
+      <ObjectId>Dragon Attack Red Spinning Fireball</ObjectId>
+      <Speed>30</Speed>
+      <Damage>200</Damage>
+      <Size>175</Size>
+      <LifetimeMS>500</LifetimeMS>
+      <ConditionEffect duration="10">Bleeding</ConditionEffect>
+    </Projectile>
+    <Projectile id="7">
+      <ObjectId>Dragon Attack Green Spin Ball</ObjectId>
+      <Damage>120</Damage>
+      <Speed>40</Speed>
+      <LifetimeMS>2500</LifetimeMS>
+      <ConditionEffect effect="3">Sick</ConditionEffect>
+    </Projectile>
+    <Projectile id="8">
+      <ObjectId>Black Missile</ObjectId>
+      <Speed>55</Speed>
+      <Damage>50</Damage>
+      <Size>100</Size>
+      <LifetimeMS>1200</LifetimeMS>
+    </Projectile>
+    <Projectile id="9">
+      <ObjectId>Black Missile</ObjectId>
+      <Speed>55</Speed>
+      <Damage>50</Damage>
+      <Size>100</Size>
+      <LifetimeMS>1200</LifetimeMS>
+    </Projectile>
+    <Projectile id="10">
+      <ObjectId>Black Missile</ObjectId>
+      <Speed>25</Speed>
+      <Damage>350</Damage>
+      <Size>200</Size>
+      <LifetimeMS>1200</LifetimeMS>
+    </Projectile>
+  </Object>
+  <Object type="0x00480" id="Rock Dragon">
+    <DisplayID>Eye of the Dragon</DisplayID>
+    <Enemy/>
+    <Quest/>
+    <Hero/>
+    <Encounter/>
+    <Class>Character</Class>
+    <Texture>
+      <File>lofiObjBig</File>
+      <Index>0xb8</Index>
+    </Texture>
+    <AltTexture id="1">
+      <Texture>
+        <File>lofiObjBig</File>
+        <Index>0xb7</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="2">
+      <Texture>
+        <File>lofiObjBig</File>
+        <Index>0xb4</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="3">
+      <Texture>
+        <File>lofiObjBig</File>
+        <Index>0xb5</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="4">
+      <Texture>
+        <File>lofiObjBig</File>
+        <Index>0xb6</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="5">
+      <Texture>
+        <File>lofiObjBig</File>
+        <Index>0xb7</Index>
+      </Texture>
+    </AltTexture>
+    <HitSound>monster/bats_hit</HitSound>
+    <!-- ||| -->
+    <DeathSound>monster/bats_death</DeathSound>
+    <Size>100</Size>
+    <MaxHitPoints>55000</MaxHitPoints>
+    <Defense>50</Defense>
+    <XpMult>10.5</XpMult>
+    <StasisImmune/>
+    <Level>20</Level>
+    <PerRealmMax>1</PerRealmMax>
+    <Projectile id="0">
+      <ObjectId>Eye Giant Laser</ObjectId>
+      <Speed>55</Speed>
+      <Damage>200</Damage>
+      <Size>240</Size>
+      <LifetimeMS>5500</LifetimeMS>
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>Eye Particle Laser</ObjectId>
+      <Speed>100</Speed>
+      <Damage>200</Damage>
+      <Size>140</Size>
+      <LifetimeMS>1200</LifetimeMS>
+      <ConditionEffect duration="2">Weak</ConditionEffect>
+    </Projectile>
+    <Projectile id="2">
+      <ObjectId>Eye Blast Fire</ObjectId>
+      <Speed>180</Speed>
+      <Damage>70</Damage>
+      <Size>140</Size>
+      <LifetimeMS>400</LifetimeMS>
+    </Projectile>
+  </Object>
+<Object type="0x00479" id="Loot Balloon">
+    <Enemy/>
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>chars16x16dEncounters2</File>
+      <Index>54</Index>
+    </AnimatedTexture>
+    <AltTexture id="1">
+      <AnimatedTexture>
+        <File>chars16x16dEncounters2</File>
+        <Index>54</Index>
+      </AnimatedTexture>
+    </AltTexture>
+    <AltTexture id="2">
+      <AnimatedTexture>
+        <File>chars16x16dEncounters2</File>
+        <Index>54</Index>
+      </AnimatedTexture>
+    </AltTexture>
+    <AltTexture id="3">
+      <AnimatedTexture>
+        <File>chars16x16dEncounters2</File>
+        <Index>54</Index>
+      </AnimatedTexture>
+    </AltTexture>
+    <HitSound>monster/skeletons_hit</HitSound>
+    <DeathSound>monster/skeletons_death</DeathSound>
+    <Size>100</Size>
+    <MaxHitPoints>5000</MaxHitPoints>
+    <Defense>500</Defense>
+    <XpMult>8.0</XpMult>
+    <StasisImmune/>
+  </Object>
+</Objects>

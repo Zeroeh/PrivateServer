@@ -1,0 +1,71 @@
+<Objects>
+  <Object type="0x2229" id="Gigacorn">
+    <Class>Character</Class>
+    <Enemy/>
+    <Quest/>
+    <AnimatedTexture>
+      <File>chars16x16rEncounters</File>
+      <Index>58</Index>
+    </AnimatedTexture>
+    <HitSound>spell/light_heal</HitSound>
+    <DeathSound>spell/major_heal</DeathSound>
+    <Size>200</Size>
+    <MaxHitPoints>16000</MaxHitPoints>
+    <StasisImmune/>
+    <Defense>35</Defense>
+    <XpMult>1.75</XpMult>
+    <Projectile id="0">
+      <ObjectId>Unicorn Horn</ObjectId>
+      <Speed>65</Speed>
+      <Damage>130</Damage>
+      <LifetimeMS>1700</LifetimeMS>
+      <Size>100</Size>
+      <ArmorPiercing/>
+      <MultiHit/>
+      <ConditionEffect duration="4">Bleeding</ConditionEffect>
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>Rainbow Brick</ObjectId>
+      <Speed>45</Speed>
+      <Damage>140</Damage>
+      <Size>110</Size>
+      <LifetimeMS>3600</LifetimeMS>
+      <ArmorPiercing/>
+      <MultiHit/>
+      <ConditionEffect duration="4">Bleeding</ConditionEffect>
+    </Projectile>
+  </Object>
+  <Object type="0x2230" id="Swoll Fairy">
+		<Class>Character</Class>
+		<Enemy/>
+		<AnimatedTexture><File>chars16x16rEncounters</File><Index>57</Index></AnimatedTexture>
+		<HitSound>spell/light_heal</HitSound>
+		<DeathSound>spell/major_heal</DeathSound>
+   	<Size>200</Size>
+		<MaxHitPoints>16000</MaxHitPoints>
+	  <StasisImmune/>
+		<Defense>35</Defense>
+		<Quest/>
+		<XpMult>1.75</XpMult>
+		<Projectile id="0">
+			<ObjectId>Unicorn Horn</ObjectId>
+			<Speed>65</Speed>
+			<Damage>130</Damage>
+			<LifetimeMS>1700</LifetimeMS>
+   		<Size>100</Size>
+      <ArmorPiercing/>
+      <MultiHit/>
+			<ConditionEffect duration="4">Bleeding</ConditionEffect>
+		</Projectile>
+		<Projectile id="1">
+			<ObjectId>Rainbow Brick</ObjectId>
+			<Speed>45</Speed>
+			<Damage>140</Damage>
+   			<Size>110</Size>
+			<LifetimeMS>3600</LifetimeMS>
+      <ArmorPiercing/>
+      <MultiHit/>
+			<ConditionEffect duration="4">Bleeding</ConditionEffect>
+		</Projectile>
+	</Object>  
+</Objects>

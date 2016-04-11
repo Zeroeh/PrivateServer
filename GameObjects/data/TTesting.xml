@@ -1,0 +1,17 @@
+<Objects>
+  <Object type="2223" id="Jeebs"> <!--Who dafuq is jeebs?-->
+    <Class>Character</Class>
+    <Group>Mad Lab</Group>
+    <RemoteTexture>
+      <Instance>testing</Instance>
+      <Id>7632526</Id>
+      <Right/>
+    </RemoteTexture>
+    <HitSound>monster/slimes_death</HitSound>
+    <DeathSound>monster/flying_brain_death</DeathSound>
+    <MaxHitPoints>1000</MaxHitPoints>
+    <Size>200</Size>
+    <ShadowSize>50</ShadowSize>
+    <Defense>10</Defense>
+  </Object>
+</Objects>

@@ -1,0 +1,219 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{D5D0743E-5120-4D35-8EBE-9B063C7A73CE}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>GameObjects</RootNamespace>
+    <AssemblyName>GameObjects</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>icon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Ionic.Zlib">
+      <HintPath>..\Ionic.Zlib.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Database.cs" />
+    <Compile Include="data\Descriptors.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="data\Mods.cs" />
+    <Compile Include="data\XmlDatas.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="FameStats.cs" />
+    <Compile Include="Database.Guilds.cs" />
+    <Compile Include="Models.cs" />
+    <Compile Include="NReader.cs" />
+    <Compile Include="NWriter.cs" />
+    <Compile Include="Utils.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="WeakDictionary.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="data\addition2.xml">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="data\AbyssOfDemons.xml" />
+    <EmbeddedResource Include="data\Belladonna.xml" />
+    <EmbeddedResource Include="data\CandyLand.xml" />
+    <EmbeddedResource Include="data\CaveOfAThousandTreasures.xml" />
+    <EmbeddedResource Include="data\Dyes.xml" />
+    <EmbeddedResource Include="data\Encounters.xml">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="data\EpicForestMaze.xml" />
+    <EmbeddedResource Include="data\EpicPirateCave.xml" />
+    <EmbeddedResource Include="data\EpicSpiderDen.xml" />
+    <EmbeddedResource Include="data\Equip.xml">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="data\EquipmentSets.xml" />
+    <EmbeddedResource Include="data\ForbiddenJungle.xml" />
+    <EmbeddedResource Include="data\ForestMaze.xml" />
+    <EmbeddedResource Include="data\GhostShip.xml" />
+    <EmbeddedResource Include="data\Ground.xml">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="data\HauntedCemetery.xml" />
+    <EmbeddedResource Include="data\High.xml" />
+    <EmbeddedResource Include="data\LairOfDraconis.xml" />
+    <EmbeddedResource Include="data\LairOfShaitan.xml" />
+    <EmbeddedResource Include="data\Low.xml" />
+    <EmbeddedResource Include="data\MadLab.xml" />
+    <EmbeddedResource Include="data\ManorOfTheImmortals.xml" />
+    <EmbeddedResource Include="data\Mid.xml" />
+    <EmbeddedResource Include="data\Monsters.xml" />
+    <EmbeddedResource Include="data\Mountains.xml" />
+    <EmbeddedResource Include="data\MTesting.xml" />
+    <EmbeddedResource Include="data\NexusDestroyed.xml" />
+    <EmbeddedResource Include="data\Objects.xml">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="data\OceanTrench.xml" />
+    <EmbeddedResource Include="data\OryxCastle.xml" />
+    <EmbeddedResource Include="data\OryxChamber.xml">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="data\OryxWineCellar.xml" />
+    <EmbeddedResource Include="data\Particles.xml" />
+    <EmbeddedResource Include="data\Permapets.xml" />
+    <EmbeddedResource Include="data\Pets.xml" />
+    <EmbeddedResource Include="data\PirateCave.xml" />
+    <EmbeddedResource Include="data\Players.xml">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="data\Projectiles.xml">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="data\PuppetMaster.xml" />
+    <EmbeddedResource Include="data\Regions.xml" />
+    <EmbeddedResource Include="data\Shatters.xml" />
+    <EmbeddedResource Include="data\Shore.xml" />
+    <EmbeddedResource Include="data\Skins.xml" />
+    <EmbeddedResource Include="data\SnakePit.xml" />
+    <EmbeddedResource Include="data\SpriteWorld.xml" />
+    <EmbeddedResource Include="data\StaticObjects.xml" />
+    <EmbeddedResource Include="data\STesting.xml" />
+    <EmbeddedResource Include="data\TempObjects.xml" />
+    <EmbeddedResource Include="data\TestingObjects.xml" />
+    <EmbeddedResource Include="data\Textiles.xml" />
+    <EmbeddedResource Include="data\TombOfTheAncients.xml" />
+    <EmbeddedResource Include="data\TTesting.xml" />
+    <EmbeddedResource Include="data\TutorialObjects.xml" />
+    <EmbeddedResource Include="data\TutorialScript.xml" />
+    <EmbeddedResource Include="data\UndeadLair.xml" />
+    <EmbeddedResource Include="data\WillemTesting.xml" />
+    <EmbeddedResource Include="data\Obstacles.xml" />
+    <Content Include="data\README.txt" />
+    <Content Include="icon.ico" />
+    <Content Include="struct.sql" />
+    <Content Include="objects.txt" />
+    <Content Include="texture\_dark_fire.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DatabaseSQL\DatabaseSQL.csproj">
+      <Project>{E9DF5ED1-4CBD-4226-B931-9A51610AC14D}</Project>
+      <Name>DatabaseSQL</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="data\addition.xml">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

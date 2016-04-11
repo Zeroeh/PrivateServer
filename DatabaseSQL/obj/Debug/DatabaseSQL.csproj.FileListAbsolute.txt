@@ -1,0 +1,34 @@
+C:\Users\User\Desktop\Private Server\DatabaseSQL\bin\Release\DatabaseSQL.dll
+C:\Users\User\Desktop\Private Server\DatabaseSQL\bin\Release\DatabaseSQL.pdb
+C:\Users\User\Desktop\Private Server\DatabaseSQL\bin\Release\GeoAPI.dll
+C:\Users\User\Desktop\Private Server\DatabaseSQL\bin\Debug\DatabaseSQL.dll
+C:\Users\User\Desktop\Private Server\DatabaseSQL\bin\Debug\DatabaseSQL.pdb
+C:\Users\User\Desktop\Private Server\DatabaseSQL\bin\Debug\GeoAPI.dll
+C:\Users\User\Desktop\Private Server\DatabaseSQL\obj\Debug\MySql.Data.MySqlClient.Properties.Resources.resources
+C:\Users\User\Desktop\Private Server\DatabaseSQL\obj\Debug\DatabaseSQL.csproj.GenerateResource.Cache
+C:\Users\User\Desktop\Private Server\DatabaseSQL\obj\Debug\DatabaseSQL.dll
+C:\Users\User\Desktop\Private Server\DatabaseSQL\obj\Debug\DatabaseSQL.pdb
+C:\Users\User\Desktop\Private Server\DatabaseSQL\obj\Debug\DatabaseSQL.csprojResolveAssemblyReference.cache
+C:\Users\User\Desktop\Private Server\Private-Server-\DatabaseSQL\bin\Debug\DatabaseSQL.dll
+C:\Users\User\Desktop\Private Server\Private-Server-\DatabaseSQL\bin\Debug\DatabaseSQL.pdb
+C:\Users\User\Desktop\Private Server\Private-Server-\DatabaseSQL\bin\Debug\GeoAPI.dll
+C:\Users\User\Desktop\Private Server\Private-Server-\DatabaseSQL\obj\Debug\MySql.Data.MySqlClient.Properties.Resources.resources
+C:\Users\User\Desktop\Private Server\Private-Server-\DatabaseSQL\obj\Debug\DatabaseSQL.csproj.GenerateResource.Cache
+C:\Users\User\Desktop\Private Server\Private-Server-\DatabaseSQL\obj\Debug\DatabaseSQL.dll
+C:\Users\User\Desktop\Private Server\Private-Server-\DatabaseSQL\obj\Debug\DatabaseSQL.pdb
+C:\Users\User\Desktop\Private Server\Private-Server-\DatabaseSQL\obj\Debug\DatabaseSQL.csprojResolveAssemblyReference.cache
+C:\Users\User\Desktop\PrivateServer\DatabaseSQL\bin\Debug\DatabaseSQL.dll
+C:\Users\User\Desktop\PrivateServer\DatabaseSQL\bin\Debug\DatabaseSQL.pdb
+C:\Users\User\Desktop\PrivateServer\DatabaseSQL\bin\Debug\GeoAPI.dll
+C:\Users\User\Desktop\PrivateServer\DatabaseSQL\obj\Debug\MySql.Data.MySqlClient.Properties.Resources.resources
+C:\Users\User\Desktop\PrivateServer\DatabaseSQL\obj\Debug\DatabaseSQL.csproj.GenerateResource.Cache
+C:\Users\User\Desktop\PrivateServer\DatabaseSQL\obj\Debug\DatabaseSQL.dll
+C:\Users\User\Desktop\PrivateServer\DatabaseSQL\obj\Debug\DatabaseSQL.pdb
+C:\Users\User\Desktop\PrivateServer\DatabaseSQL\obj\Debug\DatabaseSQL.csprojResolveAssemblyReference.cache
+C:\Users\Sam\Desktop\PrivateServer\DatabaseSQL\bin\Debug\DatabaseSQL.dll
+C:\Users\Sam\Desktop\PrivateServer\DatabaseSQL\bin\Debug\DatabaseSQL.pdb
+C:\Users\Sam\Desktop\PrivateServer\DatabaseSQL\bin\Debug\GeoAPI.dll
+C:\Users\Sam\Desktop\PrivateServer\DatabaseSQL\obj\Debug\MySql.Data.MySqlClient.Properties.Resources.resources
+C:\Users\Sam\Desktop\PrivateServer\DatabaseSQL\obj\Debug\DatabaseSQL.csproj.GenerateResource.Cache
+C:\Users\Sam\Desktop\PrivateServer\DatabaseSQL\obj\Debug\DatabaseSQL.dll
+C:\Users\Sam\Desktop\PrivateServer\DatabaseSQL\obj\Debug\DatabaseSQL.pdb

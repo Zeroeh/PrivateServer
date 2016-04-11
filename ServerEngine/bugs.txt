@@ -1,0 +1,14 @@
+﻿	======================== Major Bugs =====================
+	Clients disconnect a lot. Server tick rate and MsPT work as intended, but server still lags.
+	======================== Minor Bugs =====================
+	Memory leaks
+	Poisons don't work right when enemies are invincible
+	======================== Behavior Issues ================
+	Medusa is screwed. Need a good computer/good wireless card to play efficiently.
+	======================== Fixed Bugs =====================
+	Some Networking Issues	
+
+	
+	
+
+

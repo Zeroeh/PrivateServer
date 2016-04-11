@@ -1,0 +1,1748 @@
+<!--
+	Tile IDs : 
+	<ReservedIDs>
+		08 09 0a 0b 0d 0e 0f
+		10 11 12
+		20 27 28 29 2a 2b
+	</ReservedIDs>
+	
+	<UsableIDs>
+		37 38 39 3a 3b 3d 3e 3f
+		44 45 4a 4b 4c 4d 4e 4f
+		59 5a 5b 5c 5d 5e 5f
+		6d 6e 6f
+		71
+		86 87 88 89 8a 8b 8c 8d 8e 8f
+		ab ac ae af
+		b0 ba bb
+		c1 c2
+		db dc dd de df
+	</UsableIDs>
+-->
+
+<Addition>
+	<Object type="0xff7" id="Potion of Oryx">
+		<Class>Equipment</Class>
+		<Item/>
+		<Texture>
+			<File>lofiObj5</File>
+			<Index>0x89</Index>
+		</Texture>
+		<SlotType>10</SlotType>
+		<Description>A magical potion that acts as five of each potion.</Description>
+		<Sound>use_potion</Sound>
+		<Activate stat="20" amount="5">IncrementStat</Activate>
+		<Activate stat="21" amount="5">IncrementStat</Activate>
+		<Activate stat="22" amount="5">IncrementStat</Activate>
+		<Activate stat="26" amount="5">IncrementStat</Activate>
+		<Activate stat="27" amount="5">IncrementStat</Activate>
+		<Activate stat="28" amount="5">IncrementStat</Activate>
+		<Activate stat="0" amount="25">IncrementStat</Activate>
+		<Activate stat="3" amount="25">IncrementStat</Activate>
+		<Consumable/>
+		<Potion/>
+		<BagType>4</BagType>
+	</Object>
+	<Object type="0xff8" id="Potion of Zeroeh">
+		<Class>Equipment</Class>
+		<Item/>
+		<Texture>
+			<File>lofiObj2</File>
+			<Index>0x26</Index>
+		</Texture>
+		<SlotType>10</SlotType>
+		<Description>Instantly maxes your character.</Description>
+		<Sound>use_potion</Sound>
+		<Activate stat="20" amount="150000000">IncrementStat</Activate>
+		<Activate stat="21" amount="150000000">IncrementStat</Activate>
+		<Activate stat="22" amount="150000000">IncrementStat</Activate>
+		<Activate stat="26" amount="150000000">IncrementStat</Activate>
+		<Activate stat="27" amount="150000000">IncrementStat</Activate>
+		<Activate stat="28" amount="150000000">IncrementStat</Activate>
+		<Activate stat="0" amount="800000000">IncrementStat</Activate>
+		<Activate stat="3" amount="800000000">IncrementStat</Activate>
+		<Consumable/>
+		<Potion/>
+		<BagType>4</BagType>
+	</Object>
+	<Object type="0xff9" id="Island Key">
+		<Class>Equipment</Class>
+		<Item/>
+		<Texture>
+			<File>lofiObj2</File>
+			<Index>0x75</Index>
+		</Texture>
+		<SlotType>10</SlotType>
+		<Description>A key which opens an entrance to the Forgotten Island.</Description>
+		<Sound>use_key</Sound>
+		<Consumable/>
+		<Soulbound/>
+		<Activate id="Island Portal">Create</Activate>
+	</Object>
+	<Object type="0x0ffa" id="Island Portal">
+		<Class>Portal</Class>
+		<IntergamePortal/>
+		<DungeonName>Island</DungeonName>
+		<Texture>
+			<File>lofiEnvironment</File>
+			<Index>0x7c</Index>
+		</Texture>
+	</Object>
+	<Object type="0xffb" id="Wine Cellar Key">
+		<Class>Equipment</Class>
+		<Item/>
+		<Texture>
+			<File>lofiObj2</File>
+			<Index>0x75</Index>
+		</Texture>
+		<SlotType>10</SlotType>
+		<Description>A key which opens an entrance to Oryx's Wine Cellar.</Description>
+		<Sound>use_key</Sound>
+		<Consumable/>
+		<Soulbound/>
+		<Activate id="Wine Cellar Portal">Create</Activate>
+	</Object>
+	<Object type="0x0ffc" id="Wine Cellar Portal">
+		<Class>Portal</Class>
+		<IntergamePortal/>
+		<DungeonName>Wine Cellar</DungeonName>
+		<Texture>
+			<File>lofiEnvironment</File>
+			<Index>0x5c</Index>
+		</Texture>
+	</Object>
+	<Object type="0xffd" id="Loot Bag 6">
+		<DisplayId>Loot Bag</DisplayId>
+		<Class>Container</Class>
+		<Container/>
+		<CanPutNormalObjects/>
+		<CanPutSoulboundObjects/>
+		<Loot/>
+		<Texture>
+			<File>lofiObj4</File>
+			<Index>0x95</Index>
+		</Texture>
+		<Size>80</Size>
+		<SlotTypes>0, 0, 0, 0, 0, 0, 0, 0</SlotTypes>
+	</Object>
+	<Object type="0xffe" id="Loot Bag 7">
+		<DisplayId>Loot Bag</DisplayId>
+		<Class>Container</Class>
+		<Container/>
+		<CanPutNormalObjects/>
+		<CanPutSoulboundObjects/>
+		<Loot/>
+		<Texture>
+			<File>lofiObj4</File>
+			<Index>0x96</Index>
+		</Texture>
+		<Size>80</Size>
+		<SlotTypes>0, 0, 0, 0, 0, 0, 0, 0</SlotTypes>
+	</Object>
+	<Object type="0xfff" id="Loot Bag 8">
+		<DisplayId>Loot Bag</DisplayId>
+		<Class>Container</Class>
+		<Container/>
+		<CanPutNormalObjects/>
+		<CanPutSoulboundObjects/>
+		<Loot/>
+		<Texture>
+			<File>lofiObj4</File>
+			<Index>0x97</Index>
+		</Texture>
+		<Size>80</Size>
+		<SlotTypes>0, 0, 0, 0, 0, 0, 0, 0</SlotTypes>
+	</Object>
+	<Object type="0x1900" id="Arena Portal">
+		<Class>Portal</Class>
+		<IntergamePortal/>
+		<DungeonName>Arena</DungeonName>
+		<Texture>
+			<File>lofiEnvironment</File>
+			<Index>0x5b</Index>
+		</Texture>
+	</Object>
+	<Object type="0x1901" id="Void Portal">
+		<Class>Portal</Class>
+		<IntergamePortal/>
+		<DungeonName>The Void</DungeonName>
+		<Texture>
+			<File>lofiEnvironment2</File>
+			<Index>0x36</Index>
+		</Texture>
+	</Object>
+	<Object type="0x1902" id="Magical Tree">
+		<Class>Character</Class>
+		<Texture>
+			<File>lofiEnvironment2</File>
+			<Index>0x40</Index>
+		</Texture>
+		<HitSound>monster/trees_hit</HitSound>
+		<DeathSound>monster/trees_death</DeathSound>
+		<MaxHitPoints>1000</MaxHitPoints>
+		<Size>140</Size>
+		<Enemy/>
+		<XpMult>0.0</XpMult>
+	</Object>
+	<Object type="0x1905" id="Battle Arena Portal">
+		<Class>Portal</Class>
+		<IntergamePortal/>
+		<DungeonName>Battle Arena</DungeonName>
+		<Texture>
+			<File>lofiEnvironment</File>
+			<Index>0x5b</Index>
+		</Texture>
+	</Object>
+	<Object type="0x2000" id="Reaper of Doom">
+		<Enemy/>
+		<Class>Character</Class>
+		<AnimatedTexture>
+			<File>chars8x8dEncounters</File>
+			<Index>8</Index>
+		</AnimatedTexture>
+		<HitSound>monster/trees_hit</HitSound>
+		<DeathSound>monster/trees_death</DeathSound>
+		<Size>100</Size>
+		<MaxHitPoints>20000</MaxHitPoints>
+		<Defense>100</Defense>
+		<XpMult>0.75</XpMult>
+		<Projectile id="0">
+			<ObjectId>Black Missile</ObjectId>
+			<Speed>70</Speed>
+			<Damage>120</Damage>
+			<Size>110</Size>
+			<LifetimeMS>1550</LifetimeMS>
+			<MultiHit/>
+		</Projectile>
+		<Projectile id="1">
+			<ObjectId>Fire Missile</ObjectId>
+			<Speed>90</Speed>
+			<Damage>90</Damage>
+			<Size>80</Size>
+			<LifetimeMS>1400</LifetimeMS>
+			<MultiHit/>
+		</Projectile>
+	</Object>
+	<Object type="0x2001" id="Oryx the Mad God 3">
+		<DisplayId>Oryx the Mad God</DisplayId>
+		<Enemy/>
+		<Class>Character</Class>
+		<Texture>
+			<File>lofiChar16x16</File>
+			<Index>0x54</Index>
+		</Texture>
+		<HitSound>monster/oryx_hit</HitSound>
+		<DeathSound>monster/oryx_death</DeathSound>
+		<Sound id="0">use_key</Sound>
+		<Sound id="1">spell/fire_spray</Sound>
+		<Sound id="2">spell/fire_nova</Sound>
+		<Size>120</Size>
+		<MaxHitPoints>120000</MaxHitPoints>
+		<Defense>100</Defense>
+		<Quest/>
+		<God/>
+		<Oryx/>
+		<StasisImmune/>
+		<Level>1</Level>
+		<XpMult>1</XpMult>
+		<NoArticle/>
+		<Projectile id="0">
+			<ObjectId>Fire Bolt</ObjectId>
+			<Damage>135</Damage>
+			<Speed>70</Speed>
+			<LifetimeMS>2500</LifetimeMS>
+		</Projectile>
+		<Projectile id="1">
+			<ObjectId>Green Star</ObjectId>
+			<Damage>160</Damage>
+			<Speed>70</Speed>
+			<LifetimeMS>2500</LifetimeMS>
+			<ConditionEffect duration="10">Slowed</ConditionEffect>
+		</Projectile>
+		<Projectile id="2">
+			<ObjectId>Blade</ObjectId>
+			<Damage>240</Damage>
+			<Speed>100</Speed>
+			<LifetimeMS>450</LifetimeMS>
+		</Projectile>
+		<Projectile id="3">
+			<ObjectId>Purple Star</ObjectId>
+			<Damage>160</Damage>
+			<Speed>55</Speed>
+			<LifetimeMS>3000</LifetimeMS>
+			<ConditionEffect duration="5">Blind</ConditionEffect>
+		</Projectile>
+		<Projectile id="4">
+			<ObjectId>Blue Star</ObjectId>
+			<Damage>160</Damage>
+			<Speed>105</Speed>
+			<LifetimeMS>1200</LifetimeMS>
+			<ConditionEffect duration="5">Confused</ConditionEffect>
+		</Projectile>
+		<Projectile id="5">
+			<ObjectId>Grey Star</ObjectId>
+			<Damage>160</Damage>
+			<Speed>45</Speed>
+			<LifetimeMS>3000</LifetimeMS>
+			<ConditionEffect duration="3">Quiet</ConditionEffect>
+		</Projectile>
+		<Projectile id="6">
+			<ObjectId>Red Star</ObjectId>
+			<Damage>160</Damage>
+			<Speed>55</Speed>
+			<LifetimeMS>3000</LifetimeMS>
+			<ArmorPiercing/>
+		</Projectile>
+		<Projectile id="7">
+			<ObjectId>Dark Gray Spinner</ObjectId>
+			<Speed>90</Speed>
+			<Size>100</Size>
+			<Damage>1</Damage>
+			<LifetimeMS>1800</LifetimeMS>
+			<ConditionEffect duration="10">Quiet</ConditionEffect>
+			<MultiHit/>
+		</Projectile>
+		<Projectile id="8">
+			<ObjectId>Gray Spinner</ObjectId>
+			<Speed>90</Speed>
+			<Size>100</Size>
+			<Damage>1</Damage>
+			<LifetimeMS>1800</LifetimeMS>
+			<ConditionEffect duration="10">Weak</ConditionEffect>
+			<MultiHit/>
+		</Projectile>
+		<Projectile id="9">
+			<ObjectId>Fire Boomerang</ObjectId>
+			<Damage>150</Damage>
+			<Speed>60</Speed>
+			<LifetimeMS>5000</LifetimeMS>
+			<ConditionEffect duration="5">Armor Broken</ConditionEffect>
+			<Boomerang/>
+			<MultiHit/>
+		</Projectile>
+	</Object>
+	<Object type="0x2002" id="HeartZ">
+		<Enemy/>
+		<Class>Character</Class>
+		<Texture>
+			<File>lofiObj</File>
+			<Index>0xaf</Index>
+		</Texture>
+		<HitSound>monster/slimes_hit</HitSound>
+		<DeathSound>monster/slimes_death</DeathSound>
+		<Size>500</Size>
+		<MaxHitPoints>5000000</MaxHitPoints>
+		<Defense>100</Defense>
+		<XpMult>10000</XpMult>
+	</Object>
+	<Object type="0x2003" id="Knight of the Void">
+		<Enemy/>
+		<Class>Character</Class>
+		<RemoteTexture>
+			<Instance>draw</Instance>
+			<Id>1063537760</Id>
+			<Animated/>
+		</RemoteTexture>
+		<HitSound></HitSound>
+		<DeathSound></DeathSound>
+		<Size>100</Size>
+		<MaxHitPoints>3000</MaxHitPoints>
+		<Defense>75</Defense>
+		<XpMult>0.1</XpMult>
+		<Projectile id="0">
+			<ObjectId>Darkness Bolt</ObjectId>
+			<Damage>200</Damage>
+			<Speed>100</Speed>
+			<LifetimeMS>350</LifetimeMS>
+		</Projectile>
+	</Object>
+	<!-- Walls / Editor Objects -->
+	<Object type="0x18c4" id="Wood Panel Big Window A">
+		<Class>Wall</Class>
+		<Texture><File>lofiEnvironment3</File><Index>0xe9</Index></Texture>
+		<Top><Texture><File>lofiEnvironment2</File><Index>0x58</Index></Texture></Top>
+		<HitSound>monster/wooden_walls_hit</HitSound>
+		<DeathSound>monster/wooden_walls_death</DeathSound>
+		<Static/>
+		<FullOccupy/>
+		<OccupySquare/>
+		<EnemyOccupySquare/>
+		<BlocksSight/>
+	</Object>
+	<Object type="0x18c5" id="Wood Panel Big Window B">
+		<Class>Wall</Class>
+		<Texture><File>lofiEnvironment3</File><Index>0xea</Index></Texture>
+		<Top><Texture><File>lofiEnvironment2</File><Index>0x58</Index></Texture></Top>
+		<HitSound>monster/wooden_walls_hit</HitSound>
+		<DeathSound>monster/wooden_walls_death</DeathSound>
+		<Static/>
+		<FullOccupy/>
+		<OccupySquare/>
+		<EnemyOccupySquare/>
+		<BlocksSight/>
+	</Object>
+	<!-- Tiles -->
+	<Ground type="0x08" id="Shatters Floor 1">
+		<Texture><File>lofiProjs</File><Index>0xf0</Index></Texture>
+	</Ground>
+	<Ground type="0x09" id="Shatters Floor 3">
+		<Texture><File>lofiProjs</File><Index>0xf1</Index></Texture>
+	</Ground>
+	<Ground type="0x0a" id="Shatters Floor 4">
+		<Texture><File>lofiProjs</File><Index>0xf2</Index></Texture>
+	</Ground>
+	<Ground type="0x0b" id="Shatters Floor 5">
+		<Texture><File>lofiProjs</File><Index>0xf3</Index></Texture>
+	</Ground>
+	<Ground type="0x0d" id="Shatters Floor 6">
+		<Texture><File>lofiProjs</File><Index>0xf4</Index></Texture>
+	</Ground>
+	<Ground type="0x0e" id="Shatters Floor 7">
+		<Texture><File>lofiProjs</File><Index>0xf5</Index></Texture>
+	</Ground>
+	<Ground type="0x0f" id="Shatters Floor 8">
+		<Texture><File>lofiProjs</File><Index>0xf6</Index></Texture>
+	</Ground>
+	<Ground type="0x10" id="Shatters Floor 9">
+		<Texture><File>lofiProjs</File><Index>0xf7</Index></Texture>
+	</Ground>
+	<Ground type="0x11" id="Shatters Floor 10">
+		<Texture><File>lofiProjs</File><Index>0xf8</Index></Texture>
+	</Ground>
+	<Ground type="0x12" id="Shatters Floor 11">
+		<Texture><File>lofiProjs</File><Index>0xf9</Index></Texture>
+	</Ground>
+	<Ground type="0x20" id="Shatters Floor 12">
+		<Texture><File>lofiProjs</File><Index>0xfa</Index></Texture>
+	</Ground>
+	<Ground type="0x27" id="Shatters Floor 13">
+		<Texture><File>lofiProjs</File><Index>0xfb</Index></Texture>
+	</Ground>
+	<!-- Cracked Tiles -->
+	<Ground type="0x28" id="Cracked Shatters Floor 1">
+		<Texture><File>lofiProjs</File><Index>0xfc</Index></Texture>
+	</Ground>
+	<Ground type="0x29" id="Cracked Shatters Floor 2">
+		<Texture><File>lofiProjs</File><Index>0xfd</Index></Texture>
+	</Ground>
+	<Ground type="0x2a" id="Cracked Shatters Floor 3">
+		<Texture><File>lofiProjs</File><Index>0xfe</Index></Texture>
+	</Ground>
+	<Ground type="0x2b" id="Cracked Shatters Floor 4">
+		<Texture><File>lofiProjs</File><Index>0xff</Index></Texture>
+	</Ground>
+	<Object type="0x1f00" id="Big Cuno Tree">
+		<Class>GameObject</Class>
+			<Texture><File>lofiProjsBig</File><Index>0xf0</Index></Texture>
+		<Static/>
+		<OccupySquare/>
+		<HitSound>monster/trees_hit</HitSound>
+		<DeathSound>monster/tress_death</DeathSound>
+	</Object>
+	<Object type="0xc81" id="Draconis Key">
+		<Class>Equipment</Class>
+		<Item/>
+		<Texture>
+			<File>lofiObj3</File>
+			<Index>0x3af</Index>
+		</Texture>
+		<SlotType>10</SlotType>
+		<Description>A key that opens a portal to Lair of Draconis.</Description>
+		<Sound>use_key</Sound>
+		<Consumable/>
+		<Soulbound/>
+		<Activate id="Lair of Draconis Portal">Create</Activate>
+	</Object>
+	<Object type="0x753e" id="Lair of Draconis Portal">
+		<Class>Portal</Class>
+		<IntergamePortal/>
+		<DungeonName>Lair of Draconis</DungeonName>
+		<Texture>
+			<File>lofiObj3</File>
+			<Index>0x3ae</Index>
+		</Texture>
+	</Object>
+	<Object type="0xc82" id="Leaf Dragon Hide Armor">
+		<Class>Equipment</Class>
+		<Item/>
+		<Texture>
+			<File>lofiObj3</File>
+			<Index>0x3d0</Index>
+		</Texture>
+		<SlotType>6</SlotType>
+		<Description>Light armor crafted from the hard-as-steel leafy sclaes of a Leaf Dragon.</Description>
+		<ActivateOnEquip stat="21" amount="18">IncrementStat</ActivateOnEquip>
+		<ActivateOnEquip stat="28" amount="7">IncrementStat</ActivateOnEquip>
+		<BagType>4</BagType>
+		<FameBonus>6</FameBonus>
+	</Object>
+	<Object type="0xc83" id="Water Dragon Silk Robe">
+		<Class>Equipment</Class>
+		<Item/>
+		<Texture>
+			<File>lofiObj3</File>
+			<Index>0x3d1</Index>
+		</Texture>
+		<SlotType>14</SlotType>
+		<Description>A magic robe woven from enchanted threads of water harvested from a great Water Dragon's body.</Description>
+		<ActivateOnEquip stat="20" amount="5">IncrementStat</ActivateOnEquip>
+		<ActivateOnEquip stat="21" amount="16">IncrementStat</ActivateOnEquip>
+		<ActivateOnEquip stat="27" amount="8">IncrementStat</ActivateOnEquip>
+		<ActivateOnEquip stat="3" amount="80">IncrementStat</ActivateOnEquip>
+		<BagType>4</BagType>
+		<FameBonus>6</FameBonus>
+	</Object>
+	<Object type="0xc84" id="Fire Dragon Battle Armor">
+		<Class>Equipment</Class>
+		<Item/>
+		<Texture>
+			<File>lofiObj3</File>
+			<Index>0x3d2</Index>
+		</Texture>
+		<SlotType>7</SlotType>
+		<Description>Battle armor made from Fire Dragon scales, one of the strongest substances the world has ever seen.</Description>
+	<ActivateOnEquip stat="21" amount="15">IncrementStat</ActivateOnEquip>
+	<ActivateOnEquip stat="20" amount="5">IncrementStat</ActivateOnEquip>
+	<ActivateOnEquip stat="22" amount="5">IncrementStat</ActivateOnEquip>
+	<ActivateOnEquip stat="26" amount="5">IncrementStat</ActivateOnEquip>
+		<BagType>4</BagType>
+		<FameBonus>6</FameBonus>
+	</Object>
+	
+	<Object type="0x2155" id="Dragon Attack Red Firewave">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiObjBig</File>
+			<Index>0xbc</Index>
+		</Texture>
+		<AngleCorrection>1</AngleCorrection>
+	</Object>
+	<Object type="0x2156" id="Dragon Attack Red Big Fireball">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiObjBig</File>
+			<Index>0xbd</Index>
+		</Texture>
+		<AngleCorrection>1</AngleCorrection>
+	</Object>
+	<Object type="0x2157" id="Dragon Attack Blue Fireball">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiObj3</File>
+			<Index>0x3b6</Index>
+		</Texture>
+		<Rotation>120</Rotation>
+	</Object>
+	<Object type="0x2158" id="Dragon Attack Blue Blast">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiObj3</File>
+			<Index>0x3b7</Index>
+		</Texture>
+		<AngleCorrection>1</AngleCorrection>
+	</Object>
+	<Object type="0x2159" id="Dragon Attack Blue Bullet">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiObj3</File>
+			<Index>0x3b8</Index>
+		</Texture>
+		<AngleCorrection>0</AngleCorrection>
+	</Object>
+	<Object type="0x215A" id="Dragon Attack Green Bullet">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiObj3</File>
+			<Index>0x3b9</Index>
+		</Texture>
+		<AngleCorrection>1</AngleCorrection>
+	</Object>
+	<Object type="0x215B" id="Dragon Attack Green Ball">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiObj3</File>
+			<Index>0x3ba</Index>
+		</Texture>
+	</Object>
+	<Object type="0x215C" id="Dragon Attack Green Spin Ball">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiObjBig</File>
+			<Index>0xbe</Index>
+		</Texture>
+		<Rotation>100</Rotation>
+	</Object>
+	<Object type="0x215D" id="Dragon Attack Green Arrow">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiObjBig</File>
+			<Index>0xbf</Index>
+		</Texture>
+		<AngleCorrection>1</AngleCorrection>
+	</Object>
+	<Object type="0x215E" id="Dragon Attack Green Spine">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiObj3</File>
+			<Index>0x3bb</Index>
+		</Texture>
+		<AngleCorrection>1</AngleCorrection>
+	</Object>
+	<Object type="0x215F" id="Dragon Attack Red Small Fireball">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiObj3</File>
+			<Index>0x3bc</Index>
+		</Texture>
+		<AngleCorrection>1</AngleCorrection>
+	</Object>
+	<Object type="0x2160" id="Dragon Attack Black Ray">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiObjBig</File>
+			<Index>0xbb</Index>
+		</Texture>
+		<AngleCorrection>1</AngleCorrection>
+	</Object>
+	<Object type="0x2161" id="Dragon Attack Black Spin">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiObj3</File>
+			<Index>0x3b1</Index>
+		</Texture>
+		<Rotation>100</Rotation>
+	</Object>
+	<Object type="0x2162" id="Dragon Attack Black Shot">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiObj3</File>
+			<Index>0x3b2</Index>
+		</Texture>
+		<AngleCorrection>1</AngleCorrection>
+	</Object>
+	<Object type="0x2163" id="Dragon Attack Black Bullet">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiObj3</File>
+			<Index>0x3b3</Index>
+		</Texture>
+	</Object>
+	<Object type="0x2164" id="Dragon Attack Red Orb">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiObj3</File>
+			<Index>0x3b4</Index>
+		</Texture>
+	</Object>
+	<Object type="0x2165" id="Dragon Attack Red Spinning Fireball">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiObj3</File>
+			<Index>0x3b5</Index>
+		</Texture>
+		<Rotation>100</Rotation>
+	</Object>
+		<Object type="0x2587" id="Masamune">
+		<Class>Equipment</Class>
+		<Item/>
+		<Texture>
+			<File>lofiObj3</File>
+			<Index>0x228</Index>
+		</Texture>
+		<SlotType>24</SlotType>
+		<Tier>12</Tier>
+		<Description>A magnificent legendary blade which only cuts those who deserve death.</Description>
+		<RateOfFire>1</RateOfFire>
+		<Sound>weapon/long_sword</Sound>
+		<Projectile>
+			<ObjectId>Masamune Slash</ObjectId>
+			<Speed>120</Speed>
+			<MinDamage>140</MinDamage>
+			<MaxDamage>160</MaxDamage>
+			<LifetimeMS>350</LifetimeMS>
+			<MultiHit/>
+		</Projectile>
+		<BagType>2</BagType>
+		<FameBonus>4</FameBonus>
+	</Object>
+	<Object type="0x2588" id="Ray Katana">
+		<Class>Equipment</Class>
+		<Item/>
+		<Texture>
+			<File>lofiObj3</File>
+			<Index>0x22a</Index>
+		</Texture>
+		<SlotType>24</SlotType>
+		<Description>A great katana charged with the power of the sun itself.</Description>
+		<RateOfFire>1</RateOfFire>
+		<OldSound>weapon/laser_blast</OldSound>
+		<Projectile>
+			<ObjectId>Beam Slash</ObjectId>
+			<Speed>180</Speed>
+			<MinDamage>60</MinDamage>
+			<MaxDamage>95</MaxDamage>
+			<LifetimeMS>340</LifetimeMS>
+			<MultiHit/>
+		</Projectile>
+		<BagType>4</BagType>
+		<FameBonus>3</FameBonus>
+	</Object>
+		<Object type="0xe00" id="Celestial Blade">
+		<Class>Equipment</Class>
+		<Item/>
+		<Texture>
+			<File>lofiObj3</File>
+			<Index>0x229</Index>
+		</Texture>
+		<SlotType>24</SlotType>
+		<Description>An ancient weapon imbued with the power of the cosmos.</Description>
+		<RateOfFire>1.0</RateOfFire>
+		<Sound>weapon/long_sword</Sound>
+		<Projectile>
+			<ObjectId>Celestial Slash</ObjectId>
+			<Speed>130</Speed>
+			<MinDamage>200</MinDamage>
+			<MaxDamage>220</MaxDamage>
+			<LifetimeMS>400</LifetimeMS>
+			<Amplitude>1</Amplitude>
+			<Frequency>0.2</Frequency>
+			<ParticleTrail>0xFFFF00</ParticleTrail>
+		</Projectile>
+		<BagType>4</BagType>
+		<FameBonus>6</FameBonus>
+		<OldSound>bladeSwing</OldSound>
+	</Object>
+	<Object type="0xc53" id="Basic Star">
+		<Class>Equipment</Class>
+		<Item/>
+		<Texture>
+					<File>lofiObj3</File>
+					<Index>0x22b</Index>
+		</Texture>
+		<SlotType>25</SlotType>
+		<Tier>0</Tier>
+		<Description>A basic ninja-star.</Description>
+		<Sound>spell/fire_spray</Sound>
+		<Projectile>
+					<ObjectId>Ninja Star Basic</ObjectId>
+					<Speed>100</Speed>
+					<MinDamage>100</MinDamage>
+					<MaxDamage>200</MaxDamage>
+					<LifetimeMS>1000</LifetimeMS>
+					<Size>120</Size>
+					<PassesCover/>
+		</Projectile>
+		<Usable/>
+		<BagType>0</BagType>
+		<MpCost>30</MpCost>
+		<MultiPhase/>
+		<Activate>Shoot</Activate>
+		<DisplayId>Basic Star</DisplayId>
+		</Object>
+		<Object type="0xc54" id="Four-Point Star">
+		<Class>Equipment</Class>
+		<Item/>
+		<Texture>
+					<File>lofiObj3</File>
+					<Index>0x22c</Index>
+		</Texture>
+		<SlotType>25</SlotType>
+		<Tier>1</Tier>
+		<Description>A ninja-star with four razor-sharp points.</Description>
+		<Sound>spell/fire_spray</Sound>
+		<Projectile>
+					<ObjectId>Ninja Star Four-Point</ObjectId>
+					<Speed>150</Speed>
+					<MinDamage>175</MinDamage>
+					<MaxDamage>275</MaxDamage>
+					<LifetimeMS>1000</LifetimeMS>
+					<Size>120</Size>
+					<PassesCover/>
+		</Projectile>
+		<Usable/>
+		<BagType>0</BagType>
+		<MpCost>40</MpCost>
+		<MultiPhase/>
+		<Activate>Shoot</Activate>
+		<DisplayId>Four-Point Star</DisplayId>
+		</Object>
+		<Object type="0xc55" id="Spiral Shuriken">
+		<Class>Equipment</Class>
+		<Item/>
+		<Texture>
+					<File>lofiObj3</File>
+					<Index>0x22d</Index>
+		</Texture>
+		<SlotType>25</SlotType>
+		<Tier>2</Tier>
+		<Description>A ninja-star with curved spiraling blades.</Description>
+		<Sound>spell/fire_spray</Sound>
+		<Projectile>
+					<ObjectId>Ninja Star Spiral</ObjectId>
+					<Speed>150</Speed>
+					<MinDamage>300</MinDamage>
+					<MaxDamage>400</MaxDamage>
+					<LifetimeMS>1000</LifetimeMS>
+					<Size>120</Size>
+					<PassesCover/>
+		</Projectile>
+		<Usable/>
+		<BagType>0</BagType>
+		<MpCost>50</MpCost>
+		<MultiPhase/>
+		<Activate>Shoot</Activate>
+		<DisplayId>Spiral Shuriken</DisplayId>
+		</Object>
+		<Object type="0xc56" id="Silver Star">
+		<Class>Equipment</Class>
+		<Item/>
+		<Texture>
+					<File>lofiObj3</File>
+					<Index>0x22e</Index>
+		</Texture>
+		<SlotType>25</SlotType>
+		<Tier>3</Tier>
+		<Description>A beautifully crafted shuriken.</Description>
+		<Sound>spell/fire spray</Sound>
+		<Projectile>
+					<ObjectId>Ninja Star Silver</ObjectId>
+					<Speed>150</Speed>
+					<MinDamage>400</MinDamage>
+					<MaxDamage>500</MaxDamage>
+					<LifetimeMS>1000</LifetimeMS>
+					<Size>120</Size>
+					<PassesCover/>
+		</Projectile>
+		<Usable/>
+		<BagType>1</BagType>
+		<MpCost>60</MpCost>
+		<MultiPhase/>
+		<Activate>Shoot</Activate>
+		<DisplayId>Silver Star</DisplayId>
+		</Object>
+		<Object type="0xc57" id="Wind Circle">
+		<Class>Equipment</Class>
+		<Item/>
+		<Texture>
+					<File>lofiObj3</File>
+					<Index>0x22f</Index>
+		</Texture>
+		<SlotType>25</SlotType>
+		<Tier>4</Tier>
+		<Description>A sacred shuriken that embodies the power and speed of the wind.</Description>
+		<Sound>spell/fire spray</Sound>
+		<Projectile>
+					<ObjectId>Ninja Star Wind</ObjectId>
+					<Speed>170</Speed>
+					<MinDamage>550</MinDamage>
+					<MaxDamage>650</MaxDamage>
+					<LifetimeMS>1000</LifetimeMS>
+					<Size>120</Size>
+					<PassesCover/>
+		</Projectile>
+		<Usable/>
+		<BagType>1</BagType>
+		<MpCost>70</MpCost>
+		<MultiPhase/>
+		<Activate>Shoot</Activate>
+		<DisplayId>Wind Circle</DisplayId>
+		</Object>
+		<Object type="0xc58" id="Ice Star">
+		<Class>Equipment</Class>
+		<Item/>
+		<Texture>
+					<File>lofiObj3</File>
+					<Index>0x230</Index>
+		</Texture>
+		<SlotType>25</SlotType>
+		<Tier>5</Tier>
+		<Description>A mystical shuriken formed from ever-frozen ice.</Description>
+		<Sound>spell/fire spray</Sound>
+		<Projectile>
+					<ObjectId>Ninja Star Ice</ObjectId>
+					<Speed>150</Speed>
+					<MinDamage>700</MinDamage>
+					<MaxDamage>800</MaxDamage>
+					<LifetimeMS>1000</LifetimeMS>
+					<Size>120</Size>
+					<PassesCover/>
+		</Projectile>
+		<Usable/>
+		<BagType>2</BagType>
+		<MpCost>85</MpCost>
+		<MultiPhase/>
+		<Activate>Shoot</Activate>
+		<DisplayId>Ice Star</DisplayId>
+		</Object>
+	<Object type="0xc59" id="Doom Circle">
+		<Class>Equipment</Class>
+		<Item/>
+		<Texture>
+					<File>lofiObj3</File>
+					<Index>0x231</Index>
+		</Texture>
+		<SlotType>25</SlotType>
+		<Tier>6</Tier>
+		<Description>An ancient weapon that spells destruction for all who oppose its master.</Description>
+		<Sound>spell/fire spray</Sound>
+		<Projectile>
+					<ObjectId>Ninja Star Doom</ObjectId>
+					<Speed>150</Speed>
+					<MinDamage>850</MinDamage>
+					<MaxDamage>950</MaxDamage>
+					<LifetimeMS>1000</LifetimeMS>
+					<Size>120</Size>
+					<PassesCover/>
+		</Projectile>
+		<Usable/>
+		<BagType>2</BagType>
+		<MpCost>100</MpCost>
+		<MultiPhase/>
+		<Activate>Shoot</Activate>
+		<DisplayId>Doom Circle</DisplayId>
+	</Object>
+	<Object type="0x916" id="Midnight Star">
+		<Class>Equipment</Class>
+		<Item/>
+		<Texture>
+					<File>lofiObj3</File>
+					<Index>0x232</Index>
+		</Texture>
+		<SlotType>25</SlotType>
+		<Description>A legendary shuriken that sucks the light in around it.</Description>
+		<Sound>spell/fire spray</Sound>
+		<Projectile>
+					<ObjectId>Ninja Star Midnight</ObjectId>
+					<Speed>150</Speed>
+					<MinDamage>1100</MinDamage>
+					<MaxDamage>1200</MaxDamage>
+					<LifetimeMS>1000</LifetimeMS>
+					<Size>120</Size>
+					<ConditionEffect duration="4">Paralyzed</ConditionEffect>
+					<PassesCover/>
+		</Projectile>
+		<ConditionEffect duration="4">Paralyzed</ConditionEffect>
+		<Usable/>
+		<BagType>4</BagType>
+		<MpCost>90</MpCost>
+		<MultiPhase/>
+		<Activate>Shoot</Activate>
+		<DisplayId>Midnight Star</DisplayId>
+	</Object>
+	<Object type="0x00fb" id="Katana Slash">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiObj3</File>
+			<Index>0x245</Index>
+		</Texture>
+		<AngleCorrection>1</AngleCorrection>
+	</Object>
+	<Object type="0x00fc" id="Kendo Slash">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiObj3</File>
+			<Index>0x246</Index>
+		</Texture>
+		<AngleCorrection>1</AngleCorrection>
+	</Object>
+	<Object type="0x00fd" id="Line Slash">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiObj3</File>
+			<Index>0x247</Index>
+		</Texture>
+		<AngleCorrection>1</AngleCorrection>
+	</Object>
+	<Object type="0x00fe" id="Night Slash">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiObj3</File>
+			<Index>0x248</Index>
+		</Texture>
+		<AngleCorrection>1</AngleCorrection>
+	</Object>
+	<Object type="0x00ff" id="Sky Slash">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiObj3</File>
+			<Index>0x249</Index>
+		</Texture>
+		<AngleCorrection>1</AngleCorrection>
+	</Object>
+	<Object type="0x2100" id="Buster Slash">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiObj3</File>
+			<Index>0x24a</Index>
+		</Texture>
+		<AngleCorrection>1</AngleCorrection>
+	</Object>
+	<Object type="0x2101" id="Demon Slash">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiObj3</File>
+			<Index>0x24b</Index>
+		</Texture>
+		<AngleCorrection>1</AngleCorrection>
+	</Object>
+	<Object type="0x2102" id="Jewel Slash">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiObj3</File>
+			<Index>0x24c</Index>
+		</Texture>
+		<AngleCorrection>1</AngleCorrection>
+	</Object>
+	<Object type="0x2103" id="Ichimonji Slash">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiObj3</File>
+			<Index>0x24d</Index>
+		</Texture>
+		<AngleCorrection>1</AngleCorrection>
+	</Object>
+	<Object type="0x2104" id="Muramasa Slash">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiObj3</File>
+			<Index>0x24e</Index>
+		</Texture>
+		<AngleCorrection>1</AngleCorrection>
+	</Object>
+	<Object type="0x2105" id="Masamune Slash">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiObj3</File>
+			<Index>0x24f</Index>
+		</Texture>
+		<AngleCorrection>1</AngleCorrection>
+	</Object>
+	<Object type="0x2106" id="Celestial Slash">
+		<Class>Projectile</Class>
+		<RandomTexture>
+			<Texture>
+				<File>lofiObj3</File>
+				<Index>0x250</Index>
+			</Texture>
+			<Texture>
+				<File>lofiObj3</File>
+				<Index>0x251</Index>
+			</Texture>
+			<Texture>
+				<File>lofiObj3</File>
+				<Index>0x252</Index>
+			</Texture>
+			<Texture>
+				<File>lofiObj3</File>
+				<Index>0x253</Index>
+			</Texture>
+			<Texture>
+				<File>lofiObj3</File>
+				<Index>0x254</Index>
+			</Texture>
+			<Texture>
+				<File>lofiObj3</File>
+				<Index>0x255</Index>
+			</Texture>
+		</RandomTexture>
+		<AngleCorrection>1</AngleCorrection>
+	</Object>
+	<Object type="0x2107" id="Beam Slash">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiObj3</File>
+			<Index>0x257</Index>
+		</Texture>
+		<AngleCorrection>1</AngleCorrection>
+	</Object>
+	<Object type="0x2108" id="Ninja Star Basic">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiObj3</File>
+			<Index>0x258</Index>
+		</Texture>
+		<Rotation>70</Rotation>
+	</Object>
+	<Object type="0x2109" id="Ninja Star Four-Point">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiObj3</File>
+			<Index>0x259</Index>
+		</Texture>
+		<Rotation>70</Rotation>
+	</Object>
+	<Object type="0x210a" id="Ninja Star Spiral">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiObj3</File>
+			<Index>0x25a</Index>
+		</Texture>
+		<Rotation>70</Rotation>
+	</Object>
+	<Object type="0x210b" id="Ninja Star Silver">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiObj3</File>
+			<Index>0x25b</Index>
+		</Texture>
+		<Rotation>-75</Rotation>
+	</Object>
+	<Object type="0x210c" id="Ninja Star Wind">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiObj3</File>
+			<Index>0x25c</Index>
+		</Texture>
+		<Rotation>-95</Rotation>
+	</Object>
+	<Object type="0x210d" id="Ninja Star Ice">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiObj3</File>
+			<Index>0x25d</Index>
+		</Texture>
+		<Rotation>75</Rotation>
+	</Object>
+	<Object type="0x210e" id="Ninja Star Doom">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiObj3</File>
+			<Index>0x25e</Index>
+		</Texture>
+		<Rotation>80</Rotation>
+	</Object>
+	<Object type="0x210f" id="Ninja Star Midnight">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiObj3</File>
+			<Index>0x25f</Index>
+		</Texture>
+		<Rotation>-100</Rotation>
+	</Object>
+	<Object type="0xc44" id="Rusty Katana">
+		<Class>Equipment</Class>
+		<Item/>
+		<Texture>
+			<File>lofiObj3</File>
+			<Index>0x21c</Index>
+		</Texture>
+		<SlotType>24</SlotType>
+		<Tier>0</Tier>
+		<Description>A rusty old katana.</Description>
+		<RateOfFire>1</RateOfFire>
+		<Sound>weapon/blunt_sword</Sound>
+		<Projectile>
+			<ObjectId>Katana Slash</ObjectId>
+			<Speed>120</Speed>
+			<MinDamage>20</MinDamage>
+			<MaxDamage>60</MaxDamage>
+			<LifetimeMS>350</LifetimeMS>
+			<MultiHit/>
+		</Projectile>
+		<BagType>0</BagType>
+	</Object>
+	<Object type="0x5e49" id="Candy Gnome">
+		<Enemy/>
+		<Class>Character</Class>
+		<AnimatedTexture>
+			<File>chars16x16dEncounters2</File>
+			<Index>44</Index>
+		</AnimatedTexture>
+		<HitSound>monster/goblins_hit</HitSound>
+		<DeathSound>monster/goblins_death</DeathSound>
+		<Size>120</Size>
+		<ShadowSize>45</ShadowSize>
+		<MaxHitPoints>400</MaxHitPoints>
+		<Defense>12</Defense>
+		<Terrain>MidPlains</Terrain>
+		<XpMult>2.5</XpMult>
+		<SpawnProb>0.04</SpawnProb>
+	</Object>
+		<Object type="0xc63" id="Red Gumball">
+		<Class>Equipment</Class>
+		<Item/>
+		<Texture>
+			<File>lofiObj3</File>
+			<Index>0x28e</Index>
+		</Texture>
+		<SlotType>10</SlotType>
+		<Description>Gum that temporarily boosts your vitality.</Description>
+		<Sound>use_potion</Sound>
+		<Consumable/>
+		<Potion/>
+		<BagType>1</BagType>
+		<Activate stat="26" amount="10" duration="20">StatBoostSelf</Activate>
+	</Object>
+	<Object type="0xc64" id="Purple Gumball">
+		<Class>Equipment</Class>
+		<Item/>
+		<Texture>
+			<File>lofiObj3</File>
+			<Index>0x28f</Index>
+		</Texture>
+		<SlotType>10</SlotType>
+		<Description>Gum that temporarily boosts your attack.</Description>
+		<Sound>use_potion</Sound>
+		<Consumable/>
+		<Potion/>
+		<BagType>1</BagType>
+		<Activate stat="20" amount="6" duration="20">StatBoostSelf</Activate>
+	</Object>
+	<Object type="0xc65" id="Blue Gumball">
+		<Class>Equipment</Class>
+		<Item/>
+		<Texture>
+			<File>lofiObj3</File>
+			<Index>0x290</Index>
+		</Texture>
+		<SlotType>10</SlotType>
+		<Description>Gum that temporarily boosts your defense.</Description>
+		<Sound>use_potion</Sound>
+		<Consumable/>
+		<Potion/>
+		<BagType>1</BagType>
+		<Activate stat="21" amount="6" duration="20">StatBoostSelf</Activate>
+	</Object>
+	<Object type="0xc66" id="Green Gumball">
+		<Class>Equipment</Class>
+		<Item/>
+		<Texture>
+			<File>lofiObj3</File>
+			<Index>0x291</Index>
+		</Texture>
+		<SlotType>10</SlotType>
+		<Description>Gum that temporarily boosts your speed.</Description>
+		<Sound>use_potion</Sound>
+		<Consumable/>
+		<Potion/>
+		<BagType>1</BagType>
+		<Activate stat="22" amount="8" duration="20">StatBoostSelf</Activate>
+	</Object>
+	<Object type="0xc67" id="Yellow Gumball">
+		<Class>Equipment</Class>
+		<Item/>
+		<Texture>
+			<File>lofiObj3</File>
+			<Index>0x292</Index>
+		</Texture>
+		<SlotType>10</SlotType>
+		<Description>Gum that temporarily boosts your dexterity.</Description>
+		<Sound>use_potion</Sound>
+		<Consumable/>
+		<Potion/>
+		<BagType>1</BagType>
+		<Activate stat="28" amount="8" duration="20">StatBoostSelf</Activate>
+	</Object>
+	<Object type="0xc45" id="Kendo Stick">
+		<Class>Equipment</Class>
+		<Item/>
+		<Texture>
+			<File>lofiObj3</File>
+			<Index>0x21d</Index>
+		</Texture>
+		<SlotType>24</SlotType>
+		<Tier>1</Tier>
+		<Description>Suitable for practice.</Description>
+		<RateOfFire>1</RateOfFire>
+		<Sound>weapon/blunt_sword</Sound>
+		<Projectile>
+			<ObjectId>Kendo Slash</ObjectId>
+			<Speed>120</Speed>
+			<MinDamage>30</MinDamage>
+			<MaxDamage>60</MaxDamage>
+			<LifetimeMS>350</LifetimeMS>
+			<MultiHit/>
+		</Projectile>
+		<BagType>0</BagType>
+	</Object>
+	<Object type="0xc46" id="Plain Katana">
+		<Class>Equipment</Class>
+		<Item/>
+		<Texture>
+			<File>lofiObj3</File>
+			<Index>0x21e</Index>
+		</Texture>
+		<SlotType>24</SlotType>
+		<Tier>2</Tier>
+		<Description>A basic katana.</Description>
+		<RateOfFire>1</RateOfFire>
+		<Sound>weapon/long_sword</Sound>
+		<Projectile>
+			<ObjectId>Katana Slash</ObjectId>
+			<Speed>120</Speed>
+			<MinDamage>30</MinDamage>
+			<MaxDamage>70</MaxDamage>
+			<LifetimeMS>350</LifetimeMS>
+			<MultiHit/>
+		</Projectile>
+		<BagType>0</BagType>
+	</Object>
+	<Object type="0xc47" id="Thunder Katana">
+		<Class>Equipment</Class>
+		<Item/>
+		<Texture>
+			<File>lofiObj3</File>
+			<Index>0x21f</Index>
+		</Texture>
+		<SlotType>24</SlotType>
+		<Tier>3</Tier>
+		<Description>A striking fine-edged weapon.</Description>
+		<RateOfFire>1</RateOfFire>
+		<Sound>weapon/long_sword</Sound>
+		<Projectile>
+			<ObjectId>Katana Slash</ObjectId>
+			<Speed>120</Speed>
+			<MinDamage>45</MinDamage>
+			<MaxDamage>65</MaxDamage>
+			<LifetimeMS>350</LifetimeMS>
+			<MultiHit/>
+		</Projectile>
+		<BagType>0</BagType>
+	</Object>
+	<Object type="0xc48" id="Line Kutter Katana">
+		<Class>Equipment</Class>
+		<Item/>
+		<Texture>
+			<File>lofiObj3</File>
+			<Index>0x220</Index>
+		</Texture>
+		<SlotType>24</SlotType>
+		<Tier>4</Tier>
+		<Description>A katana capable of cutting a razor-thin line.</Description>
+		<RateOfFire>1</RateOfFire>
+		<Sound>weapon/long_sword</Sound>
+		<Projectile>
+			<ObjectId>Line Slash</ObjectId>
+			<Speed>120</Speed>
+			<MinDamage>53</MinDamage>
+			<MaxDamage>73</MaxDamage>
+			<LifetimeMS>350</LifetimeMS>
+			<MultiHit/>
+		</Projectile>
+		<BagType>0</BagType>
+	</Object>
+	<Object type="0xc49" id="Night Edge">
+		<Class>Equipment</Class>
+		<Item/>
+		<Texture>
+			<File>lofiObj3</File>
+			<Index>0x221</Index>
+		</Texture>
+		<SlotType>24</SlotType>
+		<Tier>5</Tier>
+		<Description>An ancient katana with a blade of jet black steel.</Description>
+		<RateOfFire>1</RateOfFire>
+		<Sound>weapon/long_sword</Sound>
+		<Projectile>
+			<ObjectId>Night Slash</ObjectId>
+			<Speed>120</Speed>
+			<MinDamage>55</MinDamage>
+			<MaxDamage>85</MaxDamage>
+			<LifetimeMS>350</LifetimeMS>
+			<MultiHit/>
+		</Projectile>
+		<BagType>0</BagType>
+	</Object>
+	<Object type="0xc4a" id="Sky Edge">
+		<Class>Equipment</Class>
+		<Item/>
+		<Texture>
+			<File>lofiObj3</File>
+			<Index>0x222</Index>
+		</Texture>
+		<SlotType>24</SlotType>
+		<Tier>6</Tier>
+		<Description>A beautiful katana, forged and cooled by the mists atop a g</Description>
+		<RateOfFire>1</RateOfFire>
+		<Sound>weapon/long_sword</Sound>
+		<Projectile>
+			<ObjectId>Sky Slash</ObjectId>
+			<Speed>120</Speed>
+			<MinDamage>70</MinDamage>
+			<MaxDamage>100</MaxDamage>
+			<LifetimeMS>350</LifetimeMS>
+			<MultiHit/>
+		</Projectile>
+		<BagType>1</BagType>
+	</Object>
+	<Object type="0xc4b" id="Buster Katana">
+		<Class>Equipment</Class>
+		<Item/>
+		<Texture>
+			<File>lofiObj3</File>
+			<Index>0x223</Index>
+		</Texture>
+		<SlotType>24</SlotType>
+		<Tier>7</Tier>
+		<Description>A mighty weapon wielded by a hero from long ago.</Description>
+		<RateOfFire>1</RateOfFire>
+		<Sound>weapon/long_sword</Sound>
+		<Projectile>
+			<ObjectId>Buster Slash</ObjectId>
+			<Speed>120</Speed>
+			<MinDamage>90</MinDamage>
+			<MaxDamage>110</MaxDamage>
+			<LifetimeMS>350</LifetimeMS>
+			<MultiHit/>
+		</Projectile>
+		<BagType>1</BagType>
+	</Object>
+	<Object type="0xc4c" id="Demon Edge">
+		<Class>Equipment</Class>
+		<Item/>
+		<Texture>
+			<File>lofiObj3</File>
+			<Index>0x224</Index>
+		</Texture>
+		<SlotType>24</SlotType>
+		<Tier>8</Tier>
+		<Description>A cruel blade forged in hell flame and blood.</Description>
+		<RateOfFire>1</RateOfFire>
+		<Sound>weapon/long_sword</Sound>
+		<Projectile>
+			<ObjectId>Demon Slash</ObjectId>
+			<Speed>120</Speed>
+			<MinDamage>100</MinDamage>
+			<MaxDamage>134</MaxDamage>
+			<LifetimeMS>350</LifetimeMS>
+			<MultiHit/>
+		</Projectile>
+		<BagType>1</BagType>
+		<FameBonus>1</FameBonus>
+	</Object>
+	<Object type="0xc4d" id="Jewel Eye Katana">
+		<Class>Equipment</Class>
+		<Item/>
+		<Texture>
+			<File>lofiObj3</File>
+			<Index>0x225</Index>
+		</Texture>
+		<SlotType>24</SlotType>
+		<Tier>9</Tier>
+		<Description>A mighty katana with a crystal eye embeded in the hilt.</Description>
+		<RateOfFire>1</RateOfFire>
+		<Sound>weapon/long_sword</Sound>
+		<Projectile>
+			<ObjectId>Jewel Slash</ObjectId>
+			<Speed>120</Speed>
+			<MinDamage>115</MinDamage>
+			<MaxDamage>135</MaxDamage>
+			<LifetimeMS>350</LifetimeMS>
+			<MultiHit/>
+		</Projectile>
+		<BagType>1</BagType>
+		<FameBonus>1</FameBonus>
+	</Object>
+	<Object type="0xc4e" id="Ichimonji">
+		<Class>Equipment</Class>
+		<Item/>
+		<Texture>
+			<File>lofiObj3</File>
+			<Index>0x226</Index>
+		</Texture>
+		<SlotType>24</SlotType>
+		<Tier>10</Tier>
+		<Description>One of the legendary great blades of the master Ichimonji.</Description>
+		<RateOfFire>1</RateOfFire>
+		<Sound>weapon/long_sword</Sound>
+		<Projectile>
+			<ObjectId>Ichimonji Slash</ObjectId>
+			<Speed>120</Speed>
+			<MinDamage>112</MinDamage>
+			<MaxDamage>152</MaxDamage>
+			<LifetimeMS>350</LifetimeMS>
+			<MultiHit/>
+		</Projectile>
+		<BagType>2</BagType>
+		<FameBonus>2</FameBonus>
+	</Object>
+	<Object type="0xc4f" id="Muramasa">
+		<Class>Equipment</Class>
+		<Item/>
+		<Texture>
+			<File>lofiObj3</File>
+			<Index>0x227</Index>
+		</Texture>
+		<SlotType>24</SlotType>
+		<Tier>11</Tier>
+		<Description>An evil blade that hungers for blood.</Description>
+		<RateOfFire>1</RateOfFire>
+		<Sound>weapon/long_sword</Sound>
+		<Projectile>
+			<ObjectId>Muramasa Slash</ObjectId>
+			<Speed>120</Speed>
+			<MinDamage>110</MinDamage>
+			<MaxDamage>170</MaxDamage>
+			<LifetimeMS>350</LifetimeMS>
+			<MultiHit/>
+		</Projectile>
+		<BagType>2</BagType>
+		<FameBonus>3</FameBonus>
+	</Object>
+	<Object type="0x0e78" id="Nexus Crier">
+		<Class>Character</Class>
+		<AnimatedTexture>
+			<File>chars8x8rEncounters</File>
+			<Index>83</Index>
+		</AnimatedTexture>
+		<AltTexture id="1">
+			<AnimatedTexture>
+				<File>chars8x8rEncounters</File>
+				<Index>84</Index>
+			</AnimatedTexture>
+		</AltTexture>
+		<HitSound>monster/slimes_death</HitSound>
+		<DeathSound>monster/flying_brain_death</DeathSound>
+		<Size>140</Size>
+		<!--<ShadowSize>50</ShadowSize>
+		<Defense>10</Defense>-->
+	</Object>
+	 <Object type="0xe79" id="Nuke">
+		 <Class>Equipment</Class>
+		 <Item/>
+		 <Texture>
+			 <File>lofiObj6</File>
+			 <Index>0x86</Index>
+		 </Texture>
+		 <SlotType>18</SlotType>
+		 <Description>Kill all the mutha fuckas.</Description>
+		 <Usable/>
+		 <BagType>7</BagType>
+		 <FameBonus>1</FameBonus>
+		 <MpCost>252</MpCost>
+		 <Activate radius="20" totalDamage="1000000" duration="1">PoisonGrenade</Activate>
+	 </Object>
+	<Object type="0x0429" id="Effusion of Attack">
+		<Class>Equipment</Class>
+		<Item/>
+		<Texture>
+			<File>lofiObj5</File>
+			<Index>0x89</Index>
+		</Texture>
+		<SlotType>10</SlotType>
+		<Description>A potion that temporarily boosts the attack of all nearby allies.</Description>
+		<Sound>use_potion</Sound>
+		<Consumable/>
+		<Soulbound/>
+		<Potion/>
+		<BagType>3</BagType>
+		<Activate stat="20" amount="30" duration="200" range="6">StatBoostAura</Activate>
+	</Object>
+	<Object type="0x0430" id="Admin Juice">
+		<Class>Equipment</Class>
+		<Item/>
+		<Texture>
+			<File>lofiObj2</File>
+			<Index>0x07</Index>
+		</Texture>
+		<SlotType>10</SlotType>
+		<Description>Filled with a Mermaid's pussy juice. Found only in the kinkiest of Ocean Trenches!</Description>
+		<Sound>use_potion</Sound>
+		<Activate amount="1000">Heal</Activate>
+		<Activate amount="600">Magic</Activate>
+		<Activate>RemoveNegativeConditionsSelf</Activate>
+		<Consumable/>
+		<Potion/>
+		<BagType>3</BagType>
+	</Object>
+	<Object type="0x0432" id="Pollen Powder Plus">
+		<Class>Equipment</Class>
+		<Item/>
+		<Texture>
+			<File>lofiObj2</File>
+			<Index>0x19</Index>
+		</Texture>
+		<SlotType>10</SlotType>
+		<Description>A beefed-up pollen powder. Healing properties were added.</Description>
+		<Sound>use_potion</Sound>
+		<Consumable/>
+		<Potion/>
+		<BagType>3</BagType>
+	<Activate range="12" amount="300">HealNova</Activate>
+		<Activate range="12" amount="300">MagicNova</Activate>
+	</Object>
+	<Object type="0x00493" id="Tinkerer Portal">
+		<Class>Portal</Class>
+		<IntergamePortal/>
+		<DungeonName>Tinkerer</DungeonName>
+		<Texture>
+			<File>lofiEnvironment</File>
+			<Index>0x7b</Index>
+		</Texture>
+	</Object>
+	<Object type="0x00592" id="Zeroeh Wizard">
+		<Class>Character</Class>
+		<Enemy/>
+		<Quest/>
+		<AnimatedTexture>
+			<File>players</File>
+			<Index>2</Index>
+		</AnimatedTexture>
+		<HitSound>player/wizard_hit</HitSound>
+		<DeathSound>player/wizard_death</DeathSound>
+		<Size>200</Size>
+		<MaxHitPoints>100000</MaxHitPoints>
+		<StasisImmune/>
+		<Defense>25</Defense>
+		<XpMult>105.50</XpMult>
+	<Projectile id="0">
+			<ObjectId>Fire Claw</ObjectId>
+			<Speed>10</Speed>
+			<MinDamage>45</MinDamage>
+			<MaxDamage>75</MaxDamage>
+			<LifetimeMS>12900</LifetimeMS>
+			<Size>100</Size>
+			<ArmorPiercing/>
+			<MultiHit/>
+		</Projectile>
+		<Projectile id="1">
+			<ObjectId>Yellow Missile</ObjectId>
+			<Speed>180</Speed>
+			<Damage>105</Damage>
+			<Size>100</Size>
+			<LifetimeMS>5000</LifetimeMS>
+			<Amplitude>0.5</Amplitude>
+			<Frequency>2</Frequency>
+			<PassesCover/>
+			<MultiHit/>
+		</Projectile>
+	</Object>
+<Object type="0x00593" id="Zeroeh Archer">
+		<Class>Character</Class>
+		<Enemy/>
+		<Quest/>
+		<AnimatedTexture>
+			<File>players</File>
+			<Index>1</Index>
+		</AnimatedTexture>
+		<HitSound>player/archer_hit</HitSound>
+		<DeathSound>player/archer_death</DeathSound>
+		<Size>200</Size>
+		<MaxHitPoints>125000</MaxHitPoints>
+		<StasisImmune/>
+		<Defense>25</Defense>
+		<XpMult>105.50</XpMult>
+<Projectile id="0">
+			<ObjectId>Shadow Arrow</ObjectId>
+			<Speed>65</Speed>
+			<Damage>800</Damage>
+			<LifetimeMS>2700</LifetimeMS>
+			<Size>150</Size>
+			<ArmorPiercing/>
+			<MultiHit/>
+		</Projectile>
+		<Projectile id="1">
+			<ObjectId>Green Arrow</ObjectId>
+			<Speed>45</Speed>
+			<Damage>360</Damage>
+				<Size>195</Size>
+			<LifetimeMS>3600</LifetimeMS>
+			<PassesCover/>
+			<MultiHit/>
+			<ConditionEffect duration="4">Paralyzed</ConditionEffect>
+		</Projectile>
+<Projectile id="2">
+			<ObjectId>Coral Arrow</ObjectId>
+			<Speed>150</Speed>
+			<Damage>140</Damage>
+			<Size>50</Size>
+			<LifetimeMS>3600</LifetimeMS>
+			<MultiHit/>
+		</Projectile>
+	</Object>
+<Object type="0x00594" id="Zeroeh Ninja">
+		<Class>Character</Class>
+		<Enemy/>
+		<Quest/>
+		<AnimatedTexture>
+			<File>players</File>
+			<Index>13</Index>
+		</AnimatedTexture>
+		<HitSound>player/rogue_hit</HitSound>
+		<DeathSound>player/warrior_death</DeathSound>
+		<Size>200</Size>
+		<MaxHitPoints>150000</MaxHitPoints>
+		<StasisImmune/>
+		<Defense>25</Defense>
+		<XpMult>105.50</XpMult>
+	</Object>
+ <Object type="0x2198" id="Shaol, Eater of Souls">
+		<DisplayId>The Eater of Souls, Shaol</DisplayId>
+		<Class>Character</Class>
+		<Enemy/>
+		<Quest/>
+		<AnimatedTexture>
+			<File>chars16x16dMountains1</File>
+			<Index>0x09</Index>
+		</AnimatedTexture>
+		<Effect particle="SwirlingMist" cooldown="0.6">XMLEffect</Effect>
+		<HitSound>monster/medusa_hit</HitSound>
+		<DeathSound>monster/oryx_death</DeathSound>
+		<Size>100</Size>
+		<MaxHitPoints>475000</MaxHitPoints>
+		<StasisImmune/>
+		<Defense>100</Defense>
+		<XpMult>1000</XpMult>
+	 <Projectile id="0">
+			<ObjectId>Darkness Bolt</ObjectId>
+			<Speed>80</Speed>
+			<Damage>400</Damage>
+			<LifetimeMS>2700</LifetimeMS>
+			<Size>150</Size>
+			<ArmorPiercing/>
+			<MultiHit/>
+		</Projectile>
+		<Projectile id="1">
+			<ObjectId>Illumination Orb</ObjectId>
+			<Speed>100</Speed>
+			<Damage>195</Damage>
+			<Size>200</Size>
+			<LifetimeMS>3600</LifetimeMS>
+			<PassesCover/>
+			<MultiHit/>
+			<ConditionEffect duration="4">Confused</ConditionEffect>
+		</Projectile>
+		<Projectile id="2">
+			<ObjectId>Ether Spiral</ObjectId>
+			<Speed>60</Speed>
+			<Damage>10000</Damage>
+			<Size>200</Size>
+			<LifetimeMS>8000</LifetimeMS>
+			<MultiHit/>
+			<ArmorPiercing/>
+			<PassesCover/>
+		</Projectile>
+	</Object>
+	<Object type="0x2227" id="Shadow Well Key">
+		<Class>Equipment</Class>
+		<Item/>
+		<Texture>
+			<File>lofiObj3</File>
+			<Index>0x3af</Index>
+		</Texture>
+		<SlotType>10</SlotType>
+		<Description>A key that opens a portal to the Well of Shadows.</Description>
+		<Sound>use_key</Sound>
+		<Consumable/>
+		<Soulbound/>
+		<Activate id="Well of Shadows Portal">Create</Activate>
+	</Object>
+	<Object type="0x2228" id="Well of Shadows Portal">
+		<Class>Portal</Class>
+		<IntergamePortal/>
+		<DungeonName>Well of Shadows</DungeonName>
+		<Texture>
+			<File>lofiObj3</File>
+			<Index>0x3ae</Index>
+		</Texture>
+	</Object>
+<Object type="0x2243" id="Real Nexus Portal">
+		<Class>Portal</Class>
+		<IntergamePortal/>
+		<DungeonName>Real Nexus</DungeonName>
+		<Texture>
+			<File>lofiEnvironment</File>
+			<Index>0x7c</Index>
+		</Texture>
+	</Object>
+</Addition>

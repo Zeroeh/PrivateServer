@@ -1,0 +1,13 @@
+C:\Users\User\Desktop\Private Server\bin\Release\ServerEngine\texture\_dark_fire.png
+C:\Users\User\Desktop\Private Server\bin\Release\ServerEngine\realm\worlds\gauntlet.wmap
+C:\Users\User\Desktop\Private Server\bin\Release\ServerEngine\GameEngine.exe.config
+C:\Users\User\Desktop\Private Server\bin\Release\ServerEngine\GameEngine.exe.manifest
+C:\Users\User\Desktop\Private Server\bin\Release\ServerEngine\GameEngine.application
+C:\Users\User\Desktop\Private Server\bin\Release\ServerEngine\GameEngine.exe
+C:\Users\User\Desktop\Private Server\bin\Release\ServerEngine\GameEngine.pdb
+C:\Users\User\Desktop\Private Server\ServerEngine\obj\Debug\GameEngine.csprojResolveAssemblyReference.cache
+C:\Users\User\Desktop\Private Server\ServerEngine\obj\Debug\GameEngine.TrustInfo.xml
+C:\Users\User\Desktop\Private Server\ServerEngine\obj\Debug\GameEngine.exe.manifest
+C:\Users\User\Desktop\Private Server\ServerEngine\obj\Debug\GameEngine.application
+C:\Users\User\Desktop\Private Server\ServerEngine\obj\Debug\GameEngine.exe
+C:\Users\User\Desktop\Private Server\ServerEngine\obj\Debug\GameEngine.pdb

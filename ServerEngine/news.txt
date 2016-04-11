@@ -1,0 +1,5 @@
+﻿Welcome to the White Lotus.
+
+Please note that at any time the server can go down and the database wiped.
+
+If you find any bugs/exploits please report to Zeroeh or any other admin.

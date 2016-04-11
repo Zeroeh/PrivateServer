@@ -1,0 +1,12 @@
+C:\Users\User\Desktop\Private Server\bin\Release\ConServer\texture\_dark_fire.png
+C:\Users\User\Desktop\Private Server\bin\Release\ConServer\server.exe.config
+C:\Users\User\Desktop\Private Server\bin\Release\ConServer\server.exe.manifest
+C:\Users\User\Desktop\Private Server\bin\Release\ConServer\server.application
+C:\Users\User\Desktop\Private Server\bin\Release\ConServer\server.exe
+C:\Users\User\Desktop\Private Server\bin\Release\ConServer\server.pdb
+C:\Users\User\Desktop\Private Server\server\obj\Debug\server.csprojResolveAssemblyReference.cache
+C:\Users\User\Desktop\Private Server\server\obj\Debug\server.TrustInfo.xml
+C:\Users\User\Desktop\Private Server\server\obj\Debug\server.exe.manifest
+C:\Users\User\Desktop\Private Server\server\obj\Debug\server.application
+C:\Users\User\Desktop\Private Server\server\obj\Debug\server.exe
+C:\Users\User\Desktop\Private Server\server\obj\Debug\server.pdb

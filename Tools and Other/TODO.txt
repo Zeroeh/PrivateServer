@@ -1,0 +1,25 @@
+=======BUGS (Minor/Major)=======
+Minor: Players gain exp when paused. Players can teleport to paused players
+Minor: Ignore doesn't even work XD (use ignore code for muting)
+Major: Editing URL when buying gold, editing the number gives that amount.
+
+
+
+=======Fixed Bugs=======
+Characters slots for fame and people getting negative currency.
+
+
+=======PACKETS NEEDING FIXES (Might be ClientProcessor.cs problem)=======
+New_Tick (Causing players to disconnect)
+Update (Server problem?)
+AccountList (Happens when players try to connect to guild/vault/nexus, basically the 10 minute loading screen from prod)
+AllyShoot (Causing players to disconnect)(Happens when people fighting monsters together)
+Damage (Client problem maybe, happens randomly and very rarely)
+Show_Effect (Client problem with visuals? Happens very rarely)
+Reconnect (Happens when leaving or entering a new area, doesn't happen with AccountList)
+MultiShoot (Similar to Damage and AllyShoot?? Semi-rare packet)
+Goto (Goto and notification happened when spawning a portal and server lagged)
+Notification
+InvResult (dropped items and DC)
+QuestObjID (did a bunch of /set SkullShrine)
+MapInfo (Clicked the play button on home screen to start loading nexus then immediately clicked back to home in options)

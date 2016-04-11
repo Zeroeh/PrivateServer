@@ -1,0 +1,13 @@
+C:\Users\User\Desktop\Private Server\bin\Release\ServerEngine\texture\_dark_fire.png
+C:\Users\User\Desktop\Private Server\bin\Release\ServerEngine\realm\worlds\gauntlet.wmap
+C:\Users\User\Desktop\Private Server\bin\Release\ServerEngine\wServer.exe.config
+C:\Users\User\Desktop\Private Server\bin\Release\ServerEngine\wServer.exe.manifest
+C:\Users\User\Desktop\Private Server\bin\Release\ServerEngine\wServer.application
+C:\Users\User\Desktop\Private Server\bin\Release\ServerEngine\wServer.exe
+C:\Users\User\Desktop\Private Server\bin\Release\ServerEngine\wServer.pdb
+C:\Users\User\Desktop\Private Server\wServer\obj\Debug\wServer.csprojResolveAssemblyReference.cache
+C:\Users\User\Desktop\Private Server\wServer\obj\Debug\wServer.TrustInfo.xml
+C:\Users\User\Desktop\Private Server\wServer\obj\Debug\wServer.exe.manifest
+C:\Users\User\Desktop\Private Server\wServer\obj\Debug\wServer.application
+C:\Users\User\Desktop\Private Server\wServer\obj\Debug\wServer.exe
+C:\Users\User\Desktop\Private Server\wServer\obj\Debug\wServer.pdb

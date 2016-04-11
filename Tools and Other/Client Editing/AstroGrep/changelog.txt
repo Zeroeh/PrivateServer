@@ -1,0 +1,27 @@
+﻿Changelog for AstroGrep v4.3.1
+===================================================================
+Bugs
+-40: Counts not updated after item deleted from file list.
+-42: Minimum File Count option needs translated
+-43: Unicode/​binary matched text, display error
+-44: Issues with accented characters
+-45: Issue with file filter
+-47: Wrong Italian translation in status bar
+-48: AstroGrep not working (correctly) with utf8 characters/​files
+
+Support Requests
+-04: windows code page
+
+Feature Requests
+-53: Search folder in taskbar button & title bar
+-56: Add new default Directory Name exclusions for Source Controls systems and IDEs
+-58: Drag and drop for "Search Path"
+-59: make exclusions checkable
+-61: For file types, please add ability to separate using ; or ,
+-64: Add possibility to show current search path in program title
+-65: Create context menu options for common file operations
+-66: Detect UTF-8 files without BOM as UTF-8
+-67: Add option for default file open to associated program
+
+Others
+- Cleaned up saving results output when only searching files or selecting only to return file names (thanks to user Joseph Sheble)
