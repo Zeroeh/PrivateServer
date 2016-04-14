@@ -25,13 +25,13 @@ Common commands (You can look in the ServerEngine<realm<commands<AdminCommands.c
 /zen 
 /killall <name>
 
-About console colors:
-White = Unknown or not colored
-Red = Error, most likely doesn't need to be fixed
-DarkRed = Critical Error, should be fixed
-Cyan = General info, can be disregarded
-Green = Everything is good to go :)
-Yellow = Error could cause problems
-Anything else: either no color added or dunno
+About console colors: /n
+White = Unknown or not colored /n
+Red = Error, most likely doesn't need to be fixed /n
+DarkRed = Critical Error, should be fixed /n
+Cyan = General info, can be disregarded /n
+Green = Everything is good to go :) /n
+Yellow = Error could cause problems /n
+Anything else: either no color added or dunno /n
 
 Please report any bugs or crashes to nearrealitydotcom@gmail.com (Please include screenshots of the console window, with the scrollbar starting at the top of the crash :]  )
