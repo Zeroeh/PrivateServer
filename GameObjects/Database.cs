@@ -12,7 +12,7 @@ namespace GameObjects
         MySqlConnection con;
         public Database()
         {
-            con = new MySqlConnection("Server=127.0.0.1;Database=rotmg;uid=root;password=");
+            con = new MySqlConnection("Server=127.0.0.1;Database=realm;uid=root;password=");
             con.Open();
         }
 
