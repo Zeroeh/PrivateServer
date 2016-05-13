@@ -16,16 +16,6 @@ Please ensure that you're using Visual Studio 2015 or newer otherwise this guide
 
 4) Run the ServerEngine normally and ConServer as admin.
 
-5) Add references the following namespaces in your class file:
-- `using Lib_K_Relay;`
-- `using Lib_K_Relay.Utilities;`
-- `using Lib_K_Relay.Interface;`
-- `using Lib_K_Relay.Networking;`
-- `using Lib_K_Relay.Networking.Packets;`
-- `using Lib_K_Relay.Networking.Packets.Client;`
-- `using Lib_K_Relay.Networking.Packets.Server;`
-- `using Lib_K_Relay.Networking.Packets.DataObjects;`
-
 This source was made to run efficiently and is optimized for performance. It is more optimized to run off of hamachi since that is what I debugged the source with while testing the 
 networking aspects.
 
@@ -34,12 +24,10 @@ networking aspects.
 - `GameObjects == db`
 - `The other projects are self explanatory.`
 
-
 Common commands (You can look in the ServerEngine<realm<commands<AdminCommands.cs for the list)
 - `/spawn <object>`
 - `/gift <item>`
 - `/zen`
-
 
 About console colors:
 - `White = Unknown or not colored`
