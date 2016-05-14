@@ -12,6 +12,7 @@ using GameObjects;
 using ServerEngine.realm;
 using ServerEngine.realm.entities;
 using ServerEngine.realm.entities.player;
+using System.Net;
 
 namespace ServerEngine
 {
@@ -273,13 +274,13 @@ namespace ServerEngine
                     Message = "Failed to connect."
                 });
                 Disconnect();
-                Console.WriteLine("Failed to connect.");
+                Console.WriteLine(skt.RemoteEndPoint + " to connect.");
                 return;
             }
             else
             {
                 Console.ForegroundColor = ConsoleColor.Cyan;
-                Console.WriteLine("Client loading world");
+                Console.WriteLine(skt.RemoteEndPoint + " loading world");
                 World world = RealmManager.GetWorld(pkt.GameId);
                 if (world == null)
                 {
@@ -291,7 +292,7 @@ namespace ServerEngine
                     Console.WriteLine("Invalid world");
                 }
                 Console.ForegroundColor = ConsoleColor.Cyan;
-                Console.WriteLine("Client joined world " + world.Id.ToString());
+                Console.WriteLine(skt.RemoteEndPoint + " joined world " + world.Id.ToString());
                 if (world.Id == -6) //Test World
                     (world as realm.worlds.Test).LoadJson(pkt.MapInfo);
                 else if (world.IsLimbo)

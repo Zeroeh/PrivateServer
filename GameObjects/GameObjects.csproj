@@ -174,8 +174,8 @@
     <EmbeddedResource Include="data\Obstacles.xml" />
     <Content Include="data\README.txt" />
     <Content Include="icon.ico" />
-    <Content Include="struct.sql" />
     <Content Include="objects.txt" />
+    <Content Include="struct-whitelotus.sql" />
     <Content Include="texture\_dark_fire.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>

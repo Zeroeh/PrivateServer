@@ -1,8 +1,8 @@
-CREATE DATABASE  IF NOT EXISTS `rotmg` /*!40100 DEFAULT CHARACTER SET utf8 */;
-USE `rotmg`;
+CREATE DATABASE  IF NOT EXISTS `realm` /*!40100 DEFAULT CHARACTER SET utf8 */;
+USE `realm`;
 -- MySQL dump 10.13  Distrib 5.6.10, for Win64 (x86_64)
 --
--- Host: localhost    Database: rotmg
+-- Host: localhost    Database: realm
 -- ------------------------------------------------------
 -- Server version	5.6.10-log
 

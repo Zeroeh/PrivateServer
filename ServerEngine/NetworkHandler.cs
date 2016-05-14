@@ -81,8 +81,8 @@ namespace ServerEngine //All connection issues can be fixed here.
 			var s = new NetworkStream(skt);
 			NWriter wtr = new NWriter(s);
 			wtr.WriteNullTerminatedString(@"<cross-domain-policy>
-	        <allowed-access-from domain=""*"" to-ports=""*"" />
-            </cross-domain-policy>");
+			<allowed-access-from domain=""*"" to-ports=""*"" />
+			</cross-domain-policy>");
 			wtr.Write((byte)'\r');
 			wtr.Write((byte)'\n');
 			parent.Disconnect();
@@ -98,8 +98,8 @@ namespace ServerEngine //All connection issues can be fixed here.
 					repeat = false;
 
 					if (e.SocketError != SocketError.Success)
-						throw new SocketException((int)e.SocketError);
-					if (e.LastOperation == SocketAsyncOperation.Receive)  //possible error
+						throw new SocketException((int)e.SocketError); //error here
+					if (e.LastOperation == SocketAsyncOperation.Receive)
 					{
 						switch (receiveState)
 						{
@@ -191,7 +191,7 @@ namespace ServerEngine //All connection issues can be fixed here.
 						throw new InvalidOperationException(e.LastOperation.ToString());
 				} while (repeat);
 			}
-			catch (Exception ex)
+			catch (Exception ex) //client disconnects and this appears
 			{
 				Console.ForegroundColor = ConsoleColor.Red;
 				Console.WriteLine("Error with packet flow, check NetworkHandler.cs");

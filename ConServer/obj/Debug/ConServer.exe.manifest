@@ -43,38 +43,38 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ConServer.exe" size="132608">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ConServer.exe" size="133632">
       <assemblyIdentity name="ConServer" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>aDtXRzmz3yLiJ4axVhEFFjShrrtwPmYmtKu+UUe40Po=</dsig:DigestValue>
+        <dsig:DigestValue>Ih+cYm21Fflr61FcfM2gLKeAQzEuOkeh27M2rBOglZo=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="DatabaseSQL.dll" size="465408">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="DatabaseSQL.dll" size="467456">
       <assemblyIdentity name="DatabaseSQL" version="6.6.2.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>02j6zq560L1/HaD+rBCB3AbzZoXdjoythKJ3Gr5Z3DU=</dsig:DigestValue>
+        <dsig:DigestValue>MrTEI8UnFgTgvkyRb/5IDaxWphiriNYN5jj2H/UOBIo=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="GameObjects.dll" size="1504256">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="GameObjects.dll" size="1549824">
       <assemblyIdentity name="GameObjects" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>V8hhdJ9++q6bXOqLiLzjeMURtDYr3iZVplRYd8DSkqo=</dsig:DigestValue>
+        <dsig:DigestValue>3yiqKIbNVKqMF0sBK+AdyRsdKkd4lfBqEhE1Xo/sKnE=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -102,31 +102,31 @@
       </hash>
     </dependentAssembly>
   </dependency>
-  <file name="ConServer.exe.config" size="141">
+  <file name="ConServer.exe.config" size="144">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>G0AfMBOrcH0cu4wps54zDHBfpELm2eswjCJK0Im1V0M=</dsig:DigestValue>
+      <dsig:DigestValue>jLCHdLm7v47ACsSCc72IOp8bA051ZvlIJCmYB91hk5o=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="credits\stylesheets\pygment_trac.css" size="4131">
+  <file name="credits\stylesheets\pygment_trac.css" size="4199">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>aIGYBALSdLIbkmYCvBIgepUnhQodnDtUhljoQ3uuTf4=</dsig:DigestValue>
+      <dsig:DigestValue>lKM5fDZqutxPBdXnWODK5P8GvvK2BTPuE32lWicz/jA=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="credits\stylesheets\stylesheet.css" size="4324">
+  <file name="credits\stylesheets\stylesheet.css" size="4570">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>vgvk6nlXD2cQO1IGNhSOxqEmbxU/q3JkrnLzI8WKv9I=</dsig:DigestValue>
+      <dsig:DigestValue>prvwg6SYEkjnnFuDIWeqdzEjNcTNSk21pnf+6Y3IWaY=</dsig:DigestValue>
     </hash>
   </file>
   <file name="icon.ico" size="99678">
@@ -138,22 +138,22 @@
       <dsig:DigestValue>+PLobRNpInTVcEO7MDcSwTh6j91yJmfAXt9WbQ7bipM=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="stylesheets\pygment_trac.css" size="4131">
+  <file name="stylesheets\pygment_trac.css" size="4199">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>aIGYBALSdLIbkmYCvBIgepUnhQodnDtUhljoQ3uuTf4=</dsig:DigestValue>
+      <dsig:DigestValue>lKM5fDZqutxPBdXnWODK5P8GvvK2BTPuE32lWicz/jA=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="stylesheets\stylesheet.css" size="4324">
+  <file name="stylesheets\stylesheet.css" size="4570">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>vgvk6nlXD2cQO1IGNhSOxqEmbxU/q3JkrnLzI8WKv9I=</dsig:DigestValue>
+      <dsig:DigestValue>prvwg6SYEkjnnFuDIWeqdzEjNcTNSk21pnf+6Y3IWaY=</dsig:DigestValue>
     </hash>
   </file>
   <file name="website\Logo.png" size="49493">

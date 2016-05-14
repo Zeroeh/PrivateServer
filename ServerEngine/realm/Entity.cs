@@ -200,7 +200,7 @@ namespace ServerEngine.realm
                 case "Container":
                     return new Container(node);
                 case "Player":
-                    throw new Exception("Player should not instantiat using Entity.Resolve");
+                    throw new Exception("Player should not instantiate using Entity.Resolve");
                 case "Character":   //Other characters means enemy
                     return new Enemy(id);
                 case "Portal":

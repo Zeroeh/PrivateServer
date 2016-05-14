@@ -55,26 +55,26 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="DatabaseSQL.dll" size="477696">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="DatabaseSQL.dll" size="467456">
       <assemblyIdentity name="DatabaseSQL" version="6.6.2.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>gTDkjHbq2CsSPsLvG7rJ85x80ZPqFHav2y+GhNp6hJg=</dsig:DigestValue>
+        <dsig:DigestValue>xvXqH7nyIPXF8EgvlkLm5yanCfPKMe5tFNzriclASrI=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="GameObjects.dll" size="1510400">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="GameObjects.dll" size="1549824">
       <assemblyIdentity name="GameObjects" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>cG5ezqpfVyNOYbpuInZsroAp2j3bDEzqLn/xbJdaUU4=</dsig:DigestValue>
+        <dsig:DigestValue>Gp/Tp1pkrc0zKXh+KQpnV2ZKGpReMI1cljcT8SUC+JY=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -151,36 +151,36 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ServerEngine.exe" size="4237312">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ServerEngine.exe" size="4212736">
       <assemblyIdentity name="ServerEngine" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>MjGZPTM+NtcC+AYdy+cVEtnyUhmomOar6FsjX7ArZdU=</dsig:DigestValue>
+        <dsig:DigestValue>lAw18BJ2xhLr6njcm9hoU0cLTs6U4ibVLRoEM+nY1T0=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="TerrainEngine.exe" size="172032">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="TerrainEngine.exe" size="164864">
       <assemblyIdentity name="TerrainEngine" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>UBttnRq0bnbX0W8bin9dizEI2D8IUxYpY5VMQt3ilyk=</dsig:DigestValue>
+        <dsig:DigestValue>RnxbBBA6Tlwtk8HgUzPYIaCGZlJCS425/zQ/8omLjQU=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
-  <file name="bugs.txt" size="514">
+  <file name="bugs.txt" size="528">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>ZEXMITEL+DrATevXqeoabJVaaNA8WVXIwwp/TmE7HOU=</dsig:DigestValue>
+      <dsig:DigestValue>R67Rac+6ke73dxCyOLsE5py25XCzNfcD+TeuGsVoFOk=</dsig:DigestValue>
     </hash>
   </file>
   <file name="icon.ico" size="99678">
@@ -192,22 +192,22 @@
       <dsig:DigestValue>+PLobRNpInTVcEO7MDcSwTh6j91yJmfAXt9WbQ7bipM=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="news.txt" size="184">
+  <file name="news.txt" size="186">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>aHJH2FOlnwnjqg9Xwf6hKCFLvghPKEeVr5nXp7AAqoI=</dsig:DigestValue>
+      <dsig:DigestValue>pVAP9e9080SKbpjp0DWixrG0ItpMQCgeeH8rKb7N6ts=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="packets.txt" size="3319">
+  <file name="packets.txt" size="3390">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>xc30IdRAT1+MImzqYx3xYKAvSBJZB8QONN6iGjqV4i4=</dsig:DigestValue>
+      <dsig:DigestValue>IIAdZsBGm5FcBpVqhU1wBuOnVLnWQlX3/GzyITYPW0Y=</dsig:DigestValue>
     </hash>
   </file>
   <file name="realm\hackcheck.txt" size="32">

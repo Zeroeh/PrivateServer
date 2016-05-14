@@ -31,7 +31,7 @@ namespace ServerEngine.realm.entities
                 fames.Shoot(prj);
             }
         }
-
+		//Buggy enemy hit shit going on
         public void EnemyHit(RealmTime time, EnemyHitPacket pkt) //Related to the problem in Projectile.cs
         {
             try

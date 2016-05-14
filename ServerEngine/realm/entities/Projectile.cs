@@ -181,10 +181,10 @@ namespace ServerEngine.realm.entities
 			}
 			return true;
 		}
-		//Below was deleted
+		//Below was commented
 		public void ForceHit(Entity entity, RealmTime time)
 		{
-			bool penetrateObsta = Descriptor.PassesCover;
+			bool penetrateObsta = Descriptor.PassesCover; //returns error
 			bool penetrateEnemy = Descriptor.MultiHit;
 			Move(entity.X, entity.Y);
 			if (entity.HitByProjectile(this, time))

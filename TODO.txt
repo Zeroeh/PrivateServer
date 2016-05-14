@@ -1,8 +1,0 @@
-Fix realm errors <-- FIXED
-Remove quests <-- FIXED
-Remove locked and ignore features <-- FIXED
-Remove ret32 bug in utils <-- 
-Remove perma death <-- FIXED
-Add *HD* sprites (decompile client) <-- 
-Convert ConServer to port 443 (https) <-- 
-Remove permadeath and then whoever gets an oryx kill will appear on legends with all stuff at the time <-- 

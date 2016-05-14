@@ -43,26 +43,26 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="DatabaseSQL.dll" size="465408">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="DatabaseSQL.dll" size="467456">
       <assemblyIdentity name="DatabaseSQL" version="6.6.2.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>02j6zq560L1/HaD+rBCB3AbzZoXdjoythKJ3Gr5Z3DU=</dsig:DigestValue>
+        <dsig:DigestValue>MrTEI8UnFgTgvkyRb/5IDaxWphiriNYN5jj2H/UOBIo=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="GameObjects.dll" size="1504256">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="GameObjects.dll" size="1549824">
       <assemblyIdentity name="GameObjects" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>V8hhdJ9++q6bXOqLiLzjeMURtDYr3iZVplRYd8DSkqo=</dsig:DigestValue>
+        <dsig:DigestValue>3yiqKIbNVKqMF0sBK+AdyRsdKkd4lfBqEhE1Xo/sKnE=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -127,14 +127,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="TerrainEngine.exe" size="164352">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="TerrainEngine.exe" size="164864">
       <assemblyIdentity name="TerrainEngine" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>eayPhpuZT9FsYBOeCnI12E+ZdQ16pYPnvmK9V1Vo9Ow=</dsig:DigestValue>
+        <dsig:DigestValue>AxypErWIzWRM95hT/Ad67HXWb6ZZvhPIweXP01AqGag=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -147,13 +147,13 @@
       <dsig:DigestValue>+PLobRNpInTVcEO7MDcSwTh6j91yJmfAXt9WbQ7bipM=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="TerrainEngine.exe.config" size="499">
+  <file name="TerrainEngine.exe.config" size="510">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>rLPBMMgXfq2cz7Cq350hRwHT7LGoVdV7dfsjUeVLw4w=</dsig:DigestValue>
+      <dsig:DigestValue>YCf79w1d5XiBl+/Hs95nqYVxtelmx+YHc47qHi3xyTU=</dsig:DigestValue>
     </hash>
   </file>
   <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">

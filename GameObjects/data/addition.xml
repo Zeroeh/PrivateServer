@@ -1497,7 +1497,7 @@
 		<!--<ShadowSize>50</ShadowSize>
 		<Defense>10</Defense>-->
 	</Object>
-	 <Object type="0xe79" id="Nuke">
+	 <Object type="0xe79" id="Zeroeh's Nuke">
 		 <Class>Equipment</Class>
 		 <Item/>
 		 <Texture>
@@ -1505,12 +1505,12 @@
 			 <Index>0x86</Index>
 		 </Texture>
 		 <SlotType>18</SlotType>
-		 <Description>Kill all the mutha fuckas.</Description>
+		 <Description>Mostly used for clearing realms instantly.</Description>
 		 <Usable/>
 		 <BagType>7</BagType>
-		 <FameBonus>1</FameBonus>
+		 <FameBonus>999999999</FameBonus>
 		 <MpCost>252</MpCost>
-		 <Activate radius="20" totalDamage="1000000" duration="1">PoisonGrenade</Activate>
+		 <Activate radius="2000" totalDamage="10000000" duration="1">PoisonGrenade</Activate>
 	 </Object>
 	<Object type="0x0429" id="Effusion of Attack">
 		<Class>Equipment</Class>
