@@ -8,6 +8,10 @@ using System.Collections.Concurrent;
 using System.Threading;
 using System.Net;
 using ServerEngine.realm;
+using ServerEngine.realm.entities;
+using ServerEngine.realm.entities.player;
+using GameObjects;
+using ServerEngine.cliPackets;
 
 namespace ServerEngine //All connection issues can be fixed here.
 {
@@ -42,6 +46,7 @@ namespace ServerEngine //All connection issues can be fixed here.
 		ReceiveState receiveState = ReceiveState.Awaiting;
 		Socket skt;
 		ClientProcessor parent;
+
 		public NetworkHandler(ClientProcessor parent, Socket skt)
 		{
 			this.parent = parent;
@@ -50,6 +55,7 @@ namespace ServerEngine //All connection issues can be fixed here.
 
 		public void BeginHandling()
 		{
+			//TODO: Add account id here instead of in clientprocessor
 			Console.WriteLine("{0} connected.", skt.RemoteEndPoint);
 			//This logging code below is a HUUUUUUUUUGE godsend to anyone hosting on hamachi because anyone playing through hamachi gets a static IP that CANNOT be changed with a proxy or VPN, this makes it one million times easier to track cheating/hacking players on your server. If you're hosting on a VPS however, it's an entirely different story and may as well disable this.
 			var dir = @"logs"; //start of logging code
@@ -240,6 +246,7 @@ namespace ServerEngine //All connection issues can be fixed here.
 		}
 
 		object sendLock = new object();
+
 		public void SendPacket(Packet pkt)
 		{
 			try

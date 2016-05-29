@@ -2145,7 +2145,7 @@ namespace ServerEngine.realm.commands
         {
             get
             {
-                return "realmrelay";
+                return "krelay";
             }
         }
         public int RequiredRank
@@ -2162,14 +2162,14 @@ namespace ServerEngine.realm.commands
             {
                 Color = new ARGB(0x00FFFF),
                 ObjectId = player.Id,
-                Text = "Realm Relay Enabled"
+                Text = "K Relay Enabled"
             });
             var dir = @"logs";
             if (!System.IO.Directory.Exists(dir))
                 System.IO.Directory.CreateDirectory(dir);
             using (System.IO.StreamWriter writer = new System.IO.StreamWriter(@"logs\AdminLog.txt", true))
             {
-                writer.WriteLine("[" + DateTime.Now + "]" + player.nName + " has used the /relay");
+                writer.WriteLine("[" + DateTime.Now + "]" + player.nName + " has used the /krelay");
             }
         }
     }

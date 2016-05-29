@@ -50,7 +50,7 @@ namespace ServerEngine.realm
 
         static RealmManager()
         {
-            Worlds[World.TUT_ID] = new Tutorial(false);
+            //Worlds[World.TUT_ID] = new Tutorial(false);
             Worlds[World.NEXUS_ID] = Worlds[0] = new Nexus();
             Worlds[World.NEXUS_LIMBO] = new NexusLimbo();
             Worlds[World.VAULT_ID] = new Vault(true);
@@ -76,7 +76,7 @@ namespace ServerEngine.realm
             }
         }
 
-        public const int MAX_CLIENT = 1; //Only need 1-2 clients for private testing
+        public const int MAX_CLIENT = 50; //Only need 1-2 clients for private testing
         public static int nextWorldId = 0;
         public static int nextTestId = 0;
         public static readonly ConcurrentDictionary<int, World> Worlds = new ConcurrentDictionary<int, World>();

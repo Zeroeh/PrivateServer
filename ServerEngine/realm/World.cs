@@ -15,18 +15,18 @@ namespace ServerEngine.realm
     {
         static ILog log = LogManager.GetLogger(typeof(World));
 
-        public const int TUT_ID = -1;
-        public const int NEXUS_ID = -2;
-        public const int RAND_REALM = -3;
-        public const int NEXUS_LIMBO = -4;
-        public const int VAULT_ID = -5;
-        public const int TEST_ID = -6;
-        public const int GAUNTLET = -7;
-        public const int WC = -8;
-        public const int ARENA = -9;
-        public const int SHOP = -10;
-        public const int GHALL = -11;
-        public const int MARKET = -12;
+        //public const int TUT_ID = -1;
+        public const int NEXUS_ID = -1;
+        public const int RAND_REALM = -2;
+        public const int NEXUS_LIMBO = -3;
+        public const int VAULT_ID = -4;
+        public const int TEST_ID = -5;
+        public const int GAUNTLET = -6;
+        public const int WC = -7;
+        public const int ARENA = -8;
+        public const int SHOP = -9;
+        public const int GHALL = -10;
+        public const int MARKET = -11;
 
         protected World()
         {

@@ -127,7 +127,7 @@ namespace ServerEngine.realm.entities
 			stats[StatsType.Texture1] = Texture1;
 			stats[StatsType.Texture2] = Texture2;
 
-			stats[StatsType.Glowing] = Glowing ? 1 : 0;
+			stats[StatsType.Glowing] = Glowing ? 1 : -1;
 			stats[StatsType.HP] = HP;
 			stats[StatsType.MP] = MP;
 
@@ -321,7 +321,7 @@ namespace ServerEngine.realm.entities
 			}
 			catch
 			{
-                
+				
 			}
 			if (!KeepAlive(time)) return;
 
@@ -332,15 +332,15 @@ namespace ServerEngine.realm.entities
 			HandleGround(time);
 			HandleEffects(time);
 			fames.Tick(time);
-            //try
-            //{
-            //    psr.Database.SaveCharacter(psr.Account, psr.Character);
-            //    UpdateCount++;
-            //}
-            //catch
-            //{
-            //}
-            try
+			//try
+			//{
+			//    psr.Database.SaveCharacter(psr.Account, psr.Character);
+			//    UpdateCount++;
+			//}
+			//catch
+			//{
+			//}
+			try
 			{
 				SendUpdate(time);
 			}
@@ -449,7 +449,7 @@ namespace ServerEngine.realm.entities
 								{
 									if (RealmManager.PlayerWorldMapping.ContainsKey(this.AccountId))
 										world = RealmManager.PlayerWorldMapping[this.AccountId];
-									else if (world.Id == -5 || world.Id == -11)
+									else if (world.Id == -4 || world.Id == -10)
 										world = RealmManager.GetWorld(World.NEXUS_ID);
 									else
 										world = RealmManager.GetWorld(World.NEXUS_ID);
@@ -614,7 +614,7 @@ namespace ServerEngine.realm.entities
 			{
 				HP = 0;
 				UpdateCount++;
-                return;
+				return;
 			}
 			Entity enemy = Owner.GetEntity(pkt.EnemyId);
 			string killer = "[object _-0Cm]";
@@ -634,15 +634,15 @@ namespace ServerEngine.realm.entities
 				}
 			}
 			UpdateCount++;
-            Owner.BroadcastPacket(new DamagePacket()
-            {
-                TargetId = this.Id,
-                Effects = (!ceffects.HasValue) ? 0 : (ConditionEffects)ceffects,
-                Damage = (ushort)pkt.Damage,
-                Killed = HP <= 0,
-                BulletId = pkt.BulletId,
-                ObjectId = pkt.EnemyId
-            }, this);
+			Owner.BroadcastPacket(new DamagePacket()
+			{
+				TargetId = this.Id,
+				Effects = (!ceffects.HasValue) ? 0 : (ConditionEffects)ceffects,
+				Damage = (ushort)pkt.Damage,
+				Killed = HP <= 0,
+				BulletId = pkt.BulletId,
+				ObjectId = pkt.EnemyId
+			}, this);
 		}
 
 		public override bool HitByProjectile(Projectile projectile, RealmTime time)
@@ -666,45 +666,45 @@ namespace ServerEngine.realm.entities
 			if (!HasConditionEffect(ConditionEffects.Invulnerable))
 				HP -= dmg;
 			UpdateCount++;
-            Owner.BroadcastPacket(new DamagePacket()
-            {
-                TargetId = this.Id,
-                Effects = 0,
-                Damage = (ushort)dmg,
-                Killed = HP <= 0,
-                BulletId = 0,
-                ObjectId = chr.Id
-            }, this);
+			Owner.BroadcastPacket(new DamagePacket()
+			{
+				TargetId = this.Id,
+				Effects = 0,
+				Damage = (ushort)dmg,
+				Killed = HP <= 0,
+				BulletId = 0,
+				ObjectId = chr.Id
+			}, this);
 		}
 
-        //bool CheckResurrection()
-        //{
-        //    for (int i = 0; i < 4; i++)
-        //    {
-        //        Item item = Inventory[i];
-        //        if (item == null || !item.Resurrects) continue;
-        //        HP = Stats[0] + Stats[0];
-        //        MP = Stats[1] + Stats[1];
-        //        Inventory[i] = null;
-        //        Owner.BroadcastPacket(new TextPacket()
-        //        {
-        //            BubbleTime = 0,
-        //            Stars = -1,
-        //            Name = "",
-        //            Text = string.Format("{0}'s {1} breaks and he teleports to the nexus!", Name, item.ObjectId)
-        //        }, null);
-        //        psr.Reconnect(new ReconnectPacket()
-        //        {
-        //            Host = "",
-        //            Port = 2050,
-        //            GameId = World.NEXUS_ID,
-        //            Name = "Nexus",
-        //            Key = Empty<byte>.Array,
-        //        });
-        //        return true;
-        //    }
-        //    return false;
-        //}
+		//bool CheckResurrection()
+		//{
+		//    for (int i = 0; i < 4; i++)
+		//    {
+		//        Item item = Inventory[i];
+		//        if (item == null || !item.Resurrects) continue;
+		//        HP = Stats[0] + Stats[0];
+		//        MP = Stats[1] + Stats[1];
+		//        Inventory[i] = null;
+		//        Owner.BroadcastPacket(new TextPacket()
+		//        {
+		//            BubbleTime = 0,
+		//            Stars = -1,
+		//            Name = "",
+		//            Text = string.Format("{0}'s {1} breaks and he teleports to the nexus!", Name, item.ObjectId)
+		//        }, null);
+		//        psr.Reconnect(new ReconnectPacket()
+		//        {
+		//            Host = "",
+		//            Port = 2050,
+		//            GameId = World.NEXUS_ID,
+		//            Name = "Nexus",
+		//            Key = Empty<byte>.Array,
+		//        });
+		//        return true;
+		//    }
+		//    return false;
+		//}
 		void GenerateGravestone()
 		{
 			int maxed = 0;
@@ -765,43 +765,43 @@ namespace ServerEngine.realm.entities
 			Owner.EnterWorld(obj);
 		}
 
-        public void Death(string killer)
-        {
-            if (Owner.Name == "Arena" || Owner.Name == "Battle Arena")
-            {
-                Owner.BroadcastPacket(new TextPacket()
-                {
-                    BubbleTime = 0,
-                    Stars = -1,
-                    Name = "",
-                    Text = Name + " was eliminated by " + killer //removed XP as max packet length reached!
-                }, null);
-                //HP = psr.Character.MaxHitPoints;
-                psr.Reconnect(new ReconnectPacket()
-                {
-                    Host = "",
-                    Port = 2050,
-                    GameId = World.NEXUS_ID,
-                    Name = "Nexus",
-                    Key = Empty<byte>.Array,
-                });
-                return;
-            }
-            //if (psr.Character.Dead)
-            //{
-            //    psr.Disconnect();
-            //    return;
-            //}
-            GenerateGravestone();
-            try
-            {
-                Owner.Timers.Add(new WorldTimer(1000, (w, t) => psr.Disconnect())); //wut
-                Owner.LeaveWorld(this);
-            }
-            catch
-            {
+		public void Death(string killer)
+		{
+			if (Owner.Name == "Arena" || Owner.Name == "Battle Arena")
+			{
+				Owner.BroadcastPacket(new TextPacket()
+				{
+					BubbleTime = 0,
+					Stars = -1,
+					Name = "",
+					Text = Name + " was eliminated by " + killer //removed XP as max packet length reached!
+				}, null);
+				//HP = psr.Character.MaxHitPoints;
+				psr.Reconnect(new ReconnectPacket()
+				{
+					Host = "",
+					Port = 2050,
+					GameId = World.NEXUS_ID,
+					Name = "Nexus",
+					Key = Empty<byte>.Array,
+				});
+				return;
+			}
+			//if (psr.Character.Dead)
+			//{
+			//    psr.Disconnect();
+			//    return;
+			//}
+			GenerateGravestone();
+			try
+			{
+				Owner.Timers.Add(new WorldTimer(1000, (w, t) => psr.Disconnect())); //wut
+				Owner.LeaveWorld(this);
+			}
+			catch
+			{
 
-            }
-        }
+			}
+		}
 	}
 }

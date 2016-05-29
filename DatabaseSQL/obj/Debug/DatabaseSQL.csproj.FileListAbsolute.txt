@@ -32,4 +32,3 @@ C:\Users\Sam\Desktop\PrivateServer\DatabaseSQL\obj\Debug\MySql.Data.MySqlClient.
 C:\Users\Sam\Desktop\PrivateServer\DatabaseSQL\obj\Debug\DatabaseSQL.csproj.GenerateResource.Cache
 C:\Users\Sam\Desktop\PrivateServer\DatabaseSQL\obj\Debug\DatabaseSQL.dll
 C:\Users\Sam\Desktop\PrivateServer\DatabaseSQL\obj\Debug\DatabaseSQL.pdb
-C:\Users\Sam\Desktop\PrivateServer\DatabaseSQL\obj\Debug\DatabaseSQL.csprojResolveAssemblyReference.cache

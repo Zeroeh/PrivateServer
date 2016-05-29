@@ -23,14 +23,14 @@ namespace ServerEngine.realm //All of this code is EXTREMELY buggy, this is basi
         {
             do
             {
-                foreach (var i in RealmManager.Clients) ////Disconnects clients when they are not synced
-                    if (i.Value.Stage == ProtocalStage.Disconnected)
+                foreach (var i in RealmManager.Clients) //every player
+                    if (i.Value.Stage == ProtocalStage.Disconnected) //that is disonnected
                     {
                         ClientProcessor psr;
-                        RealmManager.Clients.TryRemove(i.Key, out psr);
+                        RealmManager.Clients.TryRemove(i.Key, out psr); //remove character from server
                     }
                 handle.WaitOne();
-                Tuple<ClientProcessor, Packet> work; //References to Packet.cs
+                Tuple<ClientProcessor, Packet> work;
                 while (pendings.TryDequeue(out work))
                 {
                     if (work.Item1.Stage == ProtocalStage.Disconnected)
