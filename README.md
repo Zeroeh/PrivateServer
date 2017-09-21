@@ -1,5 +1,6 @@
 # Private Server
-##RotMG Server Emulator - Zeroeh's Source
+RotMG Server Emulator - Zeroeh's Source
+NOTE: This is no longer being worked on. Any bugs present will not be fixed.
 
 You can set up the database using the old method or by using xampp. \n
 HeidiSQL is recommended for editing the database. I personally imported the struct using MySQL workbench then turning on xampp.
